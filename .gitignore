@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-store/
+
+# Tauri
+src-tauri/target/
+src-tauri/**/*.rs.bk
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+!data/
+
+# Build output
+out/
+release/
+
+# Test coverage
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Secrets
+*.pem
+*.key
+!*.pub
+secrets/
+credentials/
+
+# OS specific
+*.lnk
+*.exe
+!*.exe
