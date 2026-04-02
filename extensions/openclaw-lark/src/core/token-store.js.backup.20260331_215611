@@ -1,0 +1,86 @@
+"use strict";
+/**
+ * Copyright (c) 2026 ByteDance Ltd. and/or its affiliates
+ * SPDX-License-Identifier: MIT
+ *
+ * UAT (User Access Token) storage with configurable backend.
+ *
+ * Supports two storage modes (configured via oauth.storage.mode):
+ *   - memory: Pure in-memory storage (no persistence, cleared on restart)
+ *   - persistent: File/Keychain-based encrypted storage (survives restart)
+ *
+ * Default: persistent (backward compatible)
+ *
+ * Storage:
+ *   - In-memory Map OR encrypted files/Keychain
+ *   - Key format: "{appId}:{userOpenId}"
+ *   - Value: StoredUAToken object
+ *
+ * Token Lifecycle:
+ *   - Saved on authorization success
+ *   - Checked for expiration on every get
+ *   - Lazily deleted when expired
+ *   - NOT proactively refreshed (re-authorize on expiry)
+ */
+
+// Export storage manager (primary API)
+export {
+  initialize,
+  getStoredToken,
+  setStoredToken,
+  removeStoredToken,
+  tokenStatus,
+  switchStorageMode,
+  getCurrentMode,
+  getStats,
+  clearAllTokens,
+  getAllTokens,
+  isInitialized,
+  reset
+} from './token-store-manager.js';
+
+// Export configuration constants
+export {
+  OAUTH_STORAGE_CONFIG,
+  isValidStorageMode,
+  getValidStorageMode
+} from '../config/oauth-config.js';
+
+// Export backends directly (for advanced use cases)
+export * as memoryStore from './memory-store.js';
+export * as persistentStore from './persistent-store.js';
+
+// Re-export for backward compatibility (direct access to default backend)
+// Note: These will use the configured backend from token-store-manager
+import {
+  getStoredToken as gst,
+  setStoredToken as sst,
+  removeStoredToken as rst,
+  tokenStatus as ts,
+  initialize as init
+} from './token-store-manager.js';
+
+/**
+ * @deprecated Use initialize() from token-store-manager instead
+ */
+export const initializeDefault = init;
+
+/**
+ * @deprecated Use getStoredToken() from token-store-manager instead
+ */
+export const getStoredTokenDefault = gst;
+
+/**
+ * @deprecated Use setStoredToken() from token-store-manager instead
+ */
+export const setStoredTokenDefault = sst;
+
+/**
+ * @deprecated Use removeStoredToken() from token-store-manager instead
+ */
+export const removeStoredTokenDefault = rst;
+
+/**
+ * @deprecated Use tokenStatus() from token-store-manager instead
+ */
+export const tokenStatusDefault = ts;

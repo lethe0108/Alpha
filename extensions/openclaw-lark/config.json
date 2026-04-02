@@ -1,0 +1,16 @@
+{
+  "oauth": {
+    "storage": {
+      "mode": "persistent",
+      "description": "Token 存储模式：memory=纯内存，persistent=持久化文件（默认）"
+    },
+    "autoRefresh": {
+      "enabled": true,
+      "refreshAheadMinutes": 5
+    }
+  },
+  "logging": {
+    "level": "debug",
+    "format": "json"
+  }
+}

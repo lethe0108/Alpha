@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temp
+tmp/
+temp/
+
+# Backup
+*.bak
+*.backup
+*.bak.*
+
+# Git
+.git/
+
+# Large files
+*.egg-info/
+dist/
+build/
+
+# Nested Git repositories (separate workspaces)
+workspace-agent-commander/
+
+# OpenClaw sensitive data
+agents/
+config/
+media/
+syslog*
+extensions/oo3d/
+tasks/
+.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

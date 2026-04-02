@@ -1,0 +1,99 @@
+# Alpha 备份清单
+
+**备份时间**: 2026-03-31 05:10:03
+**备份范围**: /root/.openclaw
+**文件总数**: 413
+**变更**: +38351 / -14167
+
+## 目录结构
+
+.
+./agents
+./agents/agent-commander
+./agents/agent-commander/agent
+./agents/agent-commander/sessions
+./agents/claude-code
+./agents/claude-code/sessions
+./agents/codex
+./agents/codex/sessions
+./agents/main
+./agents/main/agent
+./agents/main/sessions
+./agents/opencode
+./agents/opencode/sessions
+./agents/qwen3-5-plus
+./agents/qwen3-5-plus/sessions
+./browser
+./browser/openclaw
+./browser/openclaw/user-data
+./browser/openclaw/user-data/Default
+./canvas
+./completions
+./config
+./config/__pycache__
+./credentials
+./cron
+./cron/runs
+./delivery-queue
+./delivery-queue/failed
+./devices
+./extensions
+./extensions/openclaw-lark
+./extensions/openclaw-lark/bin
+./extensions/openclaw-lark/node_modules
+./extensions/openclaw-lark/skills
+./extensions/openclaw-lark/skills/feishu-bitable
+./extensions/openclaw-lark/skills/feishu-bitable/references
+./extensions/openclaw-lark/skills/feishu-calendar
+./extensions/openclaw-lark/skills/feishu-channel-rules
+./extensions/openclaw-lark/skills/feishu-channel-rules/references
+./extensions/openclaw-lark/skills/feishu-create-doc
+./extensions/openclaw-lark/skills/feishu-fetch-doc
+./extensions/openclaw-lark/skills/feishu-im-read
+./extensions/openclaw-lark/skills/feishu-task
+./extensions/openclaw-lark/skills/feishu-troubleshoot
+./extensions/openclaw-lark/skills/feishu-update-doc
+./extensions/openclaw-lark/src
+./extensions/openclaw-lark/src/card
+./extensions/openclaw-lark/src/channel
+./extensions/openclaw-lark/src/commands
+./extensions/openclaw-lark/src/core
+./extensions/openclaw-lark/src/messaging
+./extensions/openclaw-lark/src/messaging/converters
+./extensions/openclaw-lark/src/messaging/converters/interactive
+./extensions/openclaw-lark/src/messaging/inbound
+./extensions/openclaw-lark/src/messaging/outbound
+./extensions/openclaw-lark/src/messaging/shared
+./extensions/openclaw-lark/src/tools
+./extensions/openclaw-lark/src/tools/mcp
+./extensions/openclaw-lark/src/tools/mcp/doc
+
+## 文件统计
+
+17323 个文件
+
+## 主要目录
+
+agents/
+browser/
+canvas/
+completions/
+config/
+credentials/
+cron/
+delivery-queue/
+devices/
+extensions/
+feishu/
+identity/
+logs/
+media/
+memory/
+qqbot/
+scripts/
+skills/
+subagents/
+workspace/
+workspace-agent-commander/
+workspace-opencode/
+
