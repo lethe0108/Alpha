@@ -36,22 +36,28 @@ temp/
 # Git
 .git/
 
-# Large files
-*.egg-info/
-dist/
-build/
+# Large files (>50MB)
+*.pptx
+*.zip
 
-# Nested Git repositories (separate workspaces)
+# Nested Git repositories
 workspace-agent-commander/
 
-# OpenClaw sensitive data
+# Sensitive - Alpha backup exclusions
 agents/
 config/
-media/
 syslog*
-extensions/oo3d/
+*.sqlite*
+exec-approvals.json
+BACKUP_MANIFEST.txt
+devices/
+identity/
+qqbot/
+openclaw.json
+subagents/
+update-check.json
+memory/
 tasks/
-.db
-*.sqlite
-*.sqlite-shm
-*.sqlite-wal
+flows/
+media/inbound/
+media/qqbot/

@@ -18,23 +18,23 @@
         {
           "id": "d76e3e21-c80c-4514-a7a5-1c60f9b7612e",
           "pattern": "/usr/bin/ls",
-          "lastUsedAt": 1775162931065,
-          "lastUsedCommand": "ls -la /root/.openclaw/workspace/projects/divination/src/components/HexagramAnalytics/",
+          "lastUsedAt": 1775239335979,
+          "lastUsedCommand": "ls -la /root/.openclaw/workspace/ | grep -i a2a",
           "lastResolvedPath": "/usr/bin/ls"
         },
         {
           "id": "d5cbba2e-df66-4df7-a803-e0cfdad7ba5d",
           "pattern": "/usr/bin/grep",
-          "lastUsedAt": 1775162604908,
-          "lastUsedCommand": "ls -la /root/.openclaw/workspace/projects/ | grep -E \"divination|八卦 | 占卜\"",
+          "lastUsedAt": 1775239335979,
+          "lastUsedCommand": "ls -la /root/.openclaw/workspace/ | grep -i a2a",
           "lastResolvedPath": "/usr/bin/ls"
         },
         {
           "id": "5df980aa-d00f-4f5f-8c6f-73f17d0dde59",
           "pattern": "/usr/bin/head",
-          "lastUsedAt": 1775163129780,
-          "lastUsedCommand": "curl -s \"https://www.baidu.com/s?wd=上证指数+2026 年 4 月 2 日+收盘\" | head -200",
-          "lastResolvedPath": "/usr/bin/curl"
+          "lastUsedAt": 1775225640474,
+          "lastUsedCommand": "ls -lt /root/.openclaw/workspace/projects/divination/*.md | head -10",
+          "lastResolvedPath": "/usr/bin/ls"
         },
         {
           "id": "cb657e19-be1b-4e87-b929-f8cbd6867c02",
@@ -46,36 +46,36 @@
         {
           "id": "a389128f-20bf-46f4-beca-2fe084c0e21d",
           "pattern": "/usr/bin/chmod",
-          "lastUsedAt": 1775123574553,
-          "lastUsedCommand": "chmod +x /root/.openclaw/workspace/aisocial-nexus/start.sh && cd /root/.openclaw/workspace/aisocial-nexus && ./start.sh",
+          "lastUsedAt": 1775186716631,
+          "lastUsedCommand": "chmod +x /root/.openclaw/workspace/tasks/verify-TASK-20260403-004.sh",
           "lastResolvedPath": "/usr/bin/chmod"
         },
         {
           "id": "60a21e8d-8ef8-4552-a486-84619ecadfb5",
           "pattern": "/usr/bin/tail",
-          "lastUsedAt": 1775153901043,
-          "lastUsedCommand": "grep -A 40 \"def get_messages\" /root/.openclaw/workspace/aisocial-nexus/backend/main.py | tail -25",
-          "lastResolvedPath": "/usr/bin/grep"
+          "lastUsedAt": 1775250352925,
+          "lastUsedCommand": "tail -30 /root/.openclaw/backup.log",
+          "lastResolvedPath": "/usr/bin/tail"
         },
         {
           "id": "59b6ecd4-005b-46ab-a0c5-a01b1541407a",
           "pattern": "/usr/bin/openclaw",
-          "lastUsedAt": 1775124279363,
-          "lastUsedCommand": "openclaw gateway restart",
+          "lastUsedAt": 1775187923307,
+          "lastUsedCommand": "openclaw gateway status",
           "lastResolvedPath": "/usr/bin/openclaw"
         },
         {
           "id": "92be3a5d-c6ba-4da8-8d2b-ab553dd5cd70",
           "pattern": "/usr/bin/curl",
-          "lastUsedAt": 1775163129780,
-          "lastUsedCommand": "curl -s \"https://www.baidu.com/s?wd=上证指数+2026 年 4 月 2 日+收盘\" | head -200",
+          "lastUsedAt": 1775250702107,
+          "lastUsedCommand": "curl -s --connect-timeout 5 --socks5 \"127.0.0.1:10808\" https://github.com -o /dev/null && echo \"✓ SOCKS5 代理正常\" || echo \"✗ SOCKS5 代理失败\"",
           "lastResolvedPath": "/usr/bin/curl"
         },
         {
           "id": "0b1ddafa-e4b0-48e1-9441-aff9a8fb4041",
           "pattern": "/usr/bin/cat",
-          "lastUsedAt": 1775143255909,
-          "lastUsedCommand": "cat /root/.openclaw/workspace/aisocial-nexus/logs/backend.log | tail -30",
+          "lastUsedAt": 1775227017007,
+          "lastUsedCommand": "cat /root/.openclaw/cron/jobs.json | jq '.jobs | length' && echo \"个剩余任务\" && cat /root/.openclaw/cron/jobs.json | jq '.jobs[].name'",
           "lastResolvedPath": "/usr/bin/cat"
         }
       ]

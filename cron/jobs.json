@@ -8,7 +8,7 @@
       "name": "Alpha 每日备份",
       "enabled": true,
       "createdAtMs": 1773768230281,
-      "updatedAtMs": 1775077505901,
+      "updatedAtMs": 1775250600053,
       "schedule": {
         "expr": "0 5 * * *",
         "kind": "cron",
@@ -21,14 +21,15 @@
         "text": "⏰ Alpha 每日备份任务执行通知\n\n时间：每天凌晨 5:00\n仓库：https://github.com/lethe0108/Alpha\n状态：私有仓库\n\n备份内容:\n- /root/.openclaw 完整目录\n- 所有配置文件\n- 所有项目文档\n- 所有记忆文件\n- 所有技能文件\n\n备份脚本：/root/.openclaw/scripts/alpha_daily_backup.sh\n代理支持：已启用 (V2Ray HTTP 10809)\n\n如果备份失败，请检查:\n1. V2Ray 代理是否运行\n2. GitHub 网络是否正常\n3. 备份日志：/root/.openclaw/backup.log"
       },
       "state": {
-        "nextRunAtMs": 1775163600000,
-        "lastRunAtMs": 1775077200004,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 305897,
+        "nextRunAtMs": 1775336400000,
+        "lastRunAtMs": 1775250000005,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 600048,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1775163600004
+        "consecutiveErrors": 1,
+        "lastError": "cron: job execution timed out",
+        "lastErrorReason": "timeout"
       }
     },
     {
@@ -56,73 +57,6 @@
         "lastDurationMs": 31333,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
-      }
-    },
-    {
-      "id": "a784d97a-a087-4e94-a203-e85d91cb44b6",
-      "agentId": "main",
-      "sessionKey": "agent:main:main",
-      "name": "divination-dev-check",
-      "enabled": true,
-      "createdAtMs": 1774032794956,
-      "updatedAtMs": 1775163107212,
-      "schedule": {
-        "everyMs": 1200000,
-        "kind": "every",
-        "anchorMs": 1774032794956
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "⏰ 八卦占卜应用开发进度检查\n\n请汇报当前开发进度：\n1. 已完成的功能模块\n2. 进行中的任务\n3. 下一步计划\n\n继续用 OpenCode 开发，确保 20 分钟内完成一个模块！"
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "state": {
-        "nextRunAtMs": 1775163790372,
-        "lastRunAtMs": 1775162590372,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 516840,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
-      }
-    },
-    {
-      "id": "e65ba14e-5972-4db6-8979-c45ea36786ed",
-      "agentId": "main",
-      "sessionKey": "agent:main:main",
-      "name": "divination-dev-check",
-      "enabled": true,
-      "createdAtMs": 1774033339849,
-      "updatedAtMs": 1775162588362,
-      "schedule": {
-        "everyMs": 1200000,
-        "kind": "every",
-        "anchorMs": 1774033339849
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "⏰ 八卦占卜应用开发进度检查\n\n请汇报当前开发进度：\n1. 已完成的功能模块\n2. 进行中的任务\n3. 下一步计划\n\n继续用 OpenCode 开发，确保 20 分钟内完成一个模块！"
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "webchat"
-      },
-      "state": {
-        "nextRunAtMs": 1775166188362,
-        "lastRunAtMs": 1775162525408,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 62954,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 15,
-        "lastError": "Channel is required when multiple channels are configured: qqbot, feishu Set delivery.channel explicitly or use a main session with a previous channel."
       }
     },
     {
@@ -213,7 +147,7 @@
       "name": "StockAnalyst - 每小时市场汇总报告",
       "enabled": true,
       "createdAtMs": 1774583639145,
-      "updatedAtMs": 1775163280192,
+      "updatedAtMs": 1775248896779,
       "schedule": {
         "everyMs": 3600000,
         "kind": "every",
@@ -230,13 +164,13 @@
         "channel": "qqbot"
       },
       "state": {
-        "nextRunAtMs": 1775166880192,
-        "lastRunAtMs": 1775163109511,
+        "nextRunAtMs": 1775252496779,
+        "lastRunAtMs": 1775248806776,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 170681,
+        "lastDurationMs": 90003,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 151,
+        "consecutiveErrors": 174,
         "lastError": "Delivering to QQ Bot requires target QQ Bot target format: qqbot:c2c:openid (direct) or qqbot:group:groupid (group)"
       }
     }

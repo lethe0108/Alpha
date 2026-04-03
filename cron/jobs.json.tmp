@@ -1,0 +1,23 @@
+{
+  "id": "potato-monitor-20260403",
+  "agentId": "main",
+  "sessionKey": "agent:main:main",
+  "name": "potato-monitor-土豆学习监控",
+  "enabled": true,
+  "createdAtMs": 1775229500000,
+  "updatedAtMs": 1775229500000,
+  "schedule": {
+    "everyMs": 20000,
+    "kind": "every",
+    "anchorMs": 1775229500000
+  },
+  "sessionTarget": "isolated",
+  "wakeMode": "now",
+  "payload": {
+    "kind": "agentTurn",
+    "message": "监控土豆学习 (oc_ea0ad2ec30d86214293c41c058ff8c01)，发现错误立即指导！"
+  },
+  "delivery": {
+    "mode": "none"
+  }
+}
