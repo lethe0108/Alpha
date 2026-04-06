@@ -1,0 +1,454 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.31",
+    "lastTouchedAt": "2026-04-06T03:10:56.330Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-05T17:05:48.011Z",
+    "lastRunVersion": "2026.3.31",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "gateway": {
+    "port": 19234,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "1e90188c3123b3df79240688000ce9bcaa45573c68dcdb72"
+    },
+    "tailscale": {
+      "mode": "serve",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "acp": {
+    "enabled": false,
+    "dispatch": {
+      "enabled": true
+    },
+    "backend": "acpx",
+    "defaultAgent": "opencode",
+    "allowedAgents": [
+      "opencode",
+      "claude-code",
+      "codex"
+    ],
+    "maxConcurrentSessions": 5
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "custom-api-deepseek-com": {
+        "baseUrl": "https://api.deepseek.com/v1",
+        "apiKey": "sk-4634b803fe2e4ccfa4fbe0be99fe1136",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-chat",
+            "name": "deepseek-chat (Custom Provider)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 1e-06,
+              "output": 2e-06,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 64000,
+            "maxTokens": 65536
+          }
+        ]
+      },
+      "bailian": {
+        "baseUrl": "https://coding.dashscope.aliyuncs.com/v1",
+        "apiKey": "sk-sp-8bb5f7d534e04ee58ca9b20333eee7a1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen3.5-plus",
+            "name": "qwen3.5-plus",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 65536,
+            "compat": {
+              "thinkingFormat": "qwen"
+            }
+          },
+          {
+            "id": "qwen3-max-2026-01-23",
+            "name": "qwen3-max-2026-01-23",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": 65536,
+            "compat": {
+              "thinkingFormat": "qwen"
+            }
+          },
+          {
+            "id": "qwen3-coder-next",
+            "name": "qwen3-coder-next",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": 65536
+          },
+          {
+            "id": "qwen3-coder-plus",
+            "name": "qwen3-coder-plus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 65536
+          },
+          {
+            "id": "MiniMax-M2.5",
+            "name": "MiniMax-M2.5",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 196608,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-5",
+            "name": "glm-5",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 202752,
+            "maxTokens": 16384,
+            "compat": {
+              "thinkingFormat": "qwen"
+            }
+          },
+          {
+            "id": "glm-4.7",
+            "name": "glm-4.7",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 202752,
+            "maxTokens": 16384,
+            "compat": {
+              "thinkingFormat": "qwen"
+            }
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "kimi-k2.5",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": 32768,
+            "compat": {
+              "thinkingFormat": "qwen"
+            }
+          }
+        ]
+      },
+      "dashscope-image": {
+        "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "apiKey": "sk-18dd4c6a5a194faa8e10886ca6e91ae2",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen-image-2.0-pro",
+            "name": "qwen-image-2.0-pro (\u5343\u95ee\u6587\u751f\u56fe\u4e13\u4e1a\u7248)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 8192,
+            "maxTokens": 4096
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "bailian/glm-5",
+        "fallbacks": [
+          "bailian/kimi-k2.5"
+        ]
+      },
+      "models": {
+        "custom-api-deepseek-com/deepseek-chat": {
+          "alias": "deepseek-chat"
+        },
+        "bailian/kimi-k2.5": {},
+        "bailian/qwen3-max-2026-01-23": {},
+        "bailian/qwen3-coder-next": {},
+        "bailian/qwen3-coder-plus": {},
+        "bailian/MiniMax-M2.5": {},
+        "bailian/glm-5": {},
+        "bailian/glm-4.7": {},
+        "bailian/qwen3-vl-max": {
+          "alias": "vl-max"
+        },
+        "dashscope-image/qwen-image-2.0-pro": {
+          "alias": "qwen-image-pro"
+        }
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard",
+        "keepRecentTokens": 15000,
+        "recentTurnsPreserve": 10
+      },
+      "maxConcurrent": 5
+    }
+  },
+  "tools": {
+    "profile": "full",
+    "alsoAllow": [
+      "feishu_bitable_app",
+      "feishu_bitable_app_table",
+      "feishu_bitable_app_table_field",
+      "feishu_bitable_app_table_record",
+      "feishu_bitable_app_table_view",
+      "feishu_calendar_calendar",
+      "feishu_calendar_event",
+      "feishu_calendar_event_attendee",
+      "feishu_calendar_freebusy",
+      "feishu_chat",
+      "feishu_chat_members",
+      "feishu_create_doc",
+      "feishu_doc_comments",
+      "feishu_doc_media",
+      "feishu_drive_file",
+      "feishu_fetch_doc",
+      "feishu_get_user",
+      "feishu_im_bot_image",
+      "feishu_im_user_fetch_resource",
+      "feishu_im_user_get_messages",
+      "feishu_im_user_get_thread_messages",
+      "feishu_im_user_message",
+      "feishu_im_user_search_messages",
+      "feishu_oauth",
+      "feishu_oauth_batch_auth",
+      "feishu_search_doc_wiki",
+      "feishu_search_user",
+      "feishu_sheet",
+      "feishu_task_comment",
+      "feishu_task_subtask",
+      "feishu_task_task",
+      "feishu_task_tasklist",
+      "feishu_update_doc",
+      "feishu_wiki_space",
+      "feishu_wiki_space_node"
+    ],
+    "agentToAgent": {
+      "enabled": false,
+      "allow": [
+        "opencode"
+      ]
+    },
+    "sessions": {
+      "visibility": "all"
+    },
+    "exec": {
+      "security": "full",
+      "ask": "off"
+    },
+    "elevated": {
+      "enabled": false,
+      "allowFrom": {
+        "feishu": [
+          "ou_5965d62297ded953e874f2b15373e3b8"
+        ]
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "cron": {
+    "enabled": true
+  },
+  "hooks": {
+    "internal": {
+      "enabled": false,
+      "entries": {
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "feishu": {
+      "appId": "cli_a92692f305789ceb",
+      "appSecret": "VJhazrJkyuxvBXTjZ2vjrhkAjduCGYm1",
+      "encryptKey": "",
+      "verificationToken": "",
+      "dmPolicy": "pairing",
+      "groupPolicy": "open"
+    },
+    "qqbot": {
+      "enabled": true,
+      "allowFrom": [
+        "*"
+      ],
+      "appId": "1903690031",
+      "clientSecret": "DMI0UloeGepmV0HS"
+    },
+    "mattermost": {
+      "enabled": true,
+      "name": "xiaop",
+      "botToken": "xnxxt148abfa8rhgsr1pizqp8h",
+      "baseUrl": "http://162.14.70.148:8065",
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "allowFrom": [
+        "*"
+      ],
+      "activation": "keywords",
+      "activationKeywords": ["小p", "alpha", "小P", "Alpha"]
+    }
+  },
+  "memory": {},
+  "plugins": {
+    "allow": [
+      "acpx",
+      "openclaw-lark",
+      "openclaw-qqbot",
+      "qqbot",
+      "mattermost"
+    ],
+    "entries": {
+      "feishu": {
+        "enabled": false
+      },
+      "acpx": {
+        "enabled": true
+      },
+      "openclaw-lark": {
+        "enabled": true
+      },
+      "openclaw-qqbot": {
+        "enabled": true
+      },
+      "qqbot": {
+        "enabled": true
+      },
+      "mattermost": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "openclaw-lark": {
+        "source": "archive",
+        "sourcePath": "/tmp/openclaw-lark-xWL9as/larksuite-openclaw-lark-2026.3.26.tgz",
+        "installPath": "/root/.openclaw/extensions/openclaw-lark",
+        "version": "2026.3.26",
+        "installedAt": "2026-03-26T19:14:12.712Z"
+      },
+      "openclaw-qqbot": {
+        "source": "npm",
+        "spec": "@tencent-connect/openclaw-qqbot@latest",
+        "installPath": "/root/.openclaw/extensions/openclaw-qqbot",
+        "version": "1.6.6",
+        "resolvedName": "@tencent-connect/openclaw-qqbot",
+        "resolvedVersion": "1.6.6",
+        "resolvedSpec": "@tencent-connect/openclaw-qqbot@1.6.6",
+        "integrity": "sha512-Zn0oj0gGukvywRWB7/m2Bq82capwYsjUv+d+wAPZTBbJioR5A7J/z4U8o2YJOvw6e2vW67LkPmqTFf9qJkDDUg==",
+        "shasum": "a845ff55bc2d35d548d9a7a92f03b884becc4a8d",
+        "resolvedAt": "2026-03-27T04:55:47.957Z",
+        "installedAt": "2026-03-27T04:57:18.680Z"
+      }
+    }
+  }
+}

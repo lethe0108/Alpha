@@ -1,0 +1,30 @@
+{
+  "name": "stock-analyst-qq-bridge",
+  "version": "1.0.0",
+  "description": "StockAnalyst Pro QQ Bridge Service - Connect QQ to StockAnalyst Agent via go-cqhttp",
+  "main": "qq-bridge.js",
+  "scripts": {
+    "start": "node qq-bridge.js",
+    "dev": "nodemon qq-bridge.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stock",
+    "analyst",
+    "qq",
+    "bot",
+    "go-cqhttp"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

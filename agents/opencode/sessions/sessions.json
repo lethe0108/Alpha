@@ -1,0 +1,3236 @@
+{
+  "agent:opencode:acp:089721f8-f120-4c0b-91f8-f8c966d20350": {
+    "sessionId": "73138c7e-362b-45a7-a020-9f33872f43b8",
+    "updatedAt": 1774069831038,
+    "spawnedBy": "agent:main:main",
+    "label": "acp-test",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/73138c7e-362b-45a7-a020-9f33872f43b8.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjA4OTcyMWY4LWYxMjAtNGMwYi05MWY4LWY4Yzk2NmQyMDM1MCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmYxMzJjMDM1ZmZlZjFZVTY0ajdYT21ENlkiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJmMTMyYzAzNWZmZWYxWVU2NGo3WE9tRDZZIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2f132c035ffef1YU64j7XOmD6Y",
+        "acpxSessionId": "ses_2f132c035ffef1YU64j7XOmD6Y",
+        "source": "ensure",
+        "lastUpdatedAt": 1774069825562
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774069831038
+    }
+  },
+  "agent:opencode:acp:97904bf3-11e1-4da4-9d2a-ad5648f4aabe": {
+    "sessionId": "a986e726-8733-4cef-8ffd-04d79f4dadcf",
+    "updatedAt": 1774070203553,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-favorites-feature",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/a986e726-8733-4cef-8ffd-04d79f4dadcf.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjk3OTA0YmYzLTExZTEtNGRhNC05ZDJhLWFkNTY0OGY0YWFiZSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmYxMmYzNzg3ZmZlcnd3TjVMMkI4eG8wVTAiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJmMTJmMzc4N2ZmZXJ3d041TDJCOHhvMFUwIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2f12f3787fferwwN5L2B8xo0U0",
+        "acpxSessionId": "ses_2f12f3787fferwwN5L2B8xo0U0",
+        "source": "ensure",
+        "lastUpdatedAt": 1774070057171
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774070203553
+    }
+  },
+  "agent:opencode:acp:193a6747-8012-443a-9273-e3c67b50b4ab": {
+    "sessionId": "0df1f6a6-f7a3-4c9a-a82a-9a0e82076a7e",
+    "updatedAt": 1774071474471,
+    "spawnedBy": "agent:main:main",
+    "label": "acp-test-1",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/0df1f6a6-f7a3-4c9a-a82a-9a0e82076a7e.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjE5M2E2NzQ3LTgwMTItNDQzYS05MjczLWUzYzY3YjUwYjRhYiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmYxMTljM2Q4ZmZlekVhSXUxZVg0RXAxcWoiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJmMTE5YzNkOGZmZXpFYUl1MWVYNEVwMXFqIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2f119c3d8ffezEaIu1eX4Ep1qj",
+        "acpxSessionId": "ses_2f119c3d8ffezEaIu1eX4Ep1qj",
+        "source": "ensure",
+        "lastUpdatedAt": 1774071463041
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774071474471
+    }
+  },
+  "agent:opencode:acp:3cc7cfd1-c31e-4091-9e04-be22912518a9": {
+    "sessionId": "fa9103f3-1950-4945-848f-dde2f7745047",
+    "updatedAt": 1774072547490,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "补全六十四卦数据",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/fa9103f3-1950-4945-848f-dde2f7745047.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjNjYzdjZmQxLWMzMWUtNDA5MS05ZTA0LWJlMjI5MTI1MThhOSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmYxMGFkNjdjZmZlMkJBY1JoSU83TWhoWGIiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJmMTBhZDY3Y2ZmZTJCQWNSaElPN01oaFhiIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2f10ad67cffe2BAcRhIO7MhhXb",
+        "acpxSessionId": "ses_2f10ad67cffe2BAcRhIO7MhhXb",
+        "source": "ensure",
+        "lastUpdatedAt": 1774072441316
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774072547490
+    }
+  },
+  "agent:opencode:acp:29144a29-4c80-459f-9946-a15f54651a80": {
+    "sessionId": "c0b53a93-a6b6-4ad4-a5a7-14e6ef20c375",
+    "updatedAt": 1774075674458,
+    "spawnedBy": "agent:main:main",
+    "label": "acp-test-quick",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/c0b53a93-a6b6-4ad4-a5a7-14e6ef20c375.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjI5MTQ0YTI5LTRjODAtNDU5Zi05OTQ2LWExNWY1NDY1MWE4MCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmYwZDk5ZDFmZmZlbTZVQVZtMld4VlRaMFEiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJmMGQ5OWQxZmZmZW02VUFWbTJXeFZUWjBRIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2f0d99d1fffem6UAVm2WxVTZ0Q",
+        "acpxSessionId": "ses_2f0d99d1fffem6UAVm2WxVTZ0Q",
+        "source": "ensure",
+        "lastUpdatedAt": 1774075667266
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774075674458
+    }
+  },
+  "agent:opencode:acp:dc551b2d-8057-4205-9c2e-c269c4d47621": {
+    "sessionId": "7bcdf20a-543f-4860-9ea5-fd0f12ff96cd",
+    "updatedAt": 1774075846012,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/7bcdf20a-543f-4860-9ea5-fd0f12ff96cd.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmRjNTUxYjJkLTgwNTctNDIwNS05YzJlLWMyNjljNGQ0NzYyMSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmYwZDc2M2EzZmZlMnJTc2ZvbEs0VTVCR0EiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJmMGQ3NjNhM2ZmZTJyU3Nmb2xLNFU1QkdBIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2f0d763a3ffe2rSsfolK4U5BGA",
+        "acpxSessionId": "ses_2f0d763a3ffe2rSsfolK4U5BGA",
+        "source": "ensure",
+        "lastUpdatedAt": 1774075813056
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774075846012
+    }
+  },
+  "agent:opencode:acp:eefe559d-cb41-4480-a343-f2cf2b8a34cc": {
+    "sessionId": "abe3660b-03e3-4d2a-ab07-ccdd2bf734a0",
+    "updatedAt": 1774077407518,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "八卦占卜 - 分享功能开发",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/abe3660b-03e3-4d2a-ab07-ccdd2bf734a0.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmVlZmU1NTlkLWNiNDEtNDQ4MC1hMzQzLWYyY2YyYjhhMzRjYyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmYwYzFiMDQwZmZlYWY1WEdiYnQzVFZDd2oiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJmMGMxYjA0MGZmZWFmNVhHYmJ0M1RWQ3dqIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2f0c1b040ffeaf5XGbbt3TVCwj",
+        "acpxSessionId": "ses_2f0c1b040ffeaf5XGbbt3TVCwj",
+        "source": "ensure",
+        "lastUpdatedAt": 1774077235233
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774077407518
+    }
+  },
+  "agent:opencode:acp:99b02cd6-40ad-446c-ae86-895597bec2eb": {
+    "sessionId": "3502ea8a-b6c8-4d9d-8d63-97a8fcd38728",
+    "updatedAt": 1774080894702,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dev",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/3502ea8a-b6c8-4d9d-8d63-97a8fcd38728.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjk5YjAyY2Q2LTQwYWQtNDQ2Yy1hZTg2LTg5NTU5N2JlYzJlYiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmYwOGFjYzE1ZmZlUnpJcmJxQ3Zud2s2M0YiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJmMDhhY2MxNWZmZVJ6SXJicUN2bndrNjNGIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2f08acc15ffeRzIrbqCvnwk63F",
+        "acpxSessionId": "ses_2f08acc15ffeRzIrbqCvnwk63F",
+        "source": "ensure",
+        "lastUpdatedAt": 1774080832595
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "error",
+      "lastActivityAt": 1774080894702,
+      "lastError": "Permission denied by ACP runtime (acpx). ACPX blocked a write/exec permission request in a non-interactive session. Configure plugins.entries.acpx.config.permissionMode to one of: approve-reads, approve-all, deny-all."
+    }
+  },
+  "agent:opencode:acp:183f0de2-5ff4-4c99-9013-70d638d365bc": {
+    "sessionId": "116f8dab-0380-4666-9510-7695187c9de2",
+    "updatedAt": 1774085249124,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-membership-dev",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/116f8dab-0380-4666-9510-7695187c9de2.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjE4M2YwZGUyLTVmZjQtNGM5OS05MDEzLTcwZDYzOGQzNjViYyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmYwNGJhMWQ5ZmZlUEZWemZHMHc5aXZlU2EiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJmMDRiYTFkOWZmZVBGVnpmRzB3OWl2ZVNhIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2f04ba1d9ffePFVzfG0w9iveSa",
+        "acpxSessionId": "ses_2f04ba1d9ffePFVzfG0w9iveSa",
+        "source": "ensure",
+        "lastUpdatedAt": 1774084972178
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774085249124
+    }
+  },
+  "agent:opencode:acp:1741e008-c0e2-4bae-8779-1b072cd6c858": {
+    "sessionId": "6aabe587-835c-4700-a023-89c542224d65",
+    "updatedAt": 1774093507685,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/6aabe587-835c-4700-a023-89c542224d65.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjE3NDFlMDA4LWMwZTItNGJhZS04Nzc5LTFiMDcyY2Q2Yzg1OCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmVmY2ExZTQ3ZmZlMXdUVkdrSVF1aGdKVksiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlZmNhMWU0N2ZmZTF3VFZHa0lRdWhnSlZLIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2efca1e47ffe1wTVGkIQuhgJVK",
+        "acpxSessionId": "ses_2efca1e47ffe1wTVGkIQuhgJVK",
+        "source": "ensure",
+        "lastUpdatedAt": 1774093460009
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774093507685
+    }
+  },
+  "agent:opencode:acp:a4f73264-9ba3-4dd6-bc9b-6379ed3fbdfd": {
+    "sessionId": "c28122ca-4245-498a-9db9-65c33846367a",
+    "updatedAt": 1774118220337,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/c28122ca-4245-498a-9db9-65c33846367a.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmE0ZjczMjY0LTliYTMtNGRkNi1iYzliLTYzNzllZDNmYmRmZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yZWU1NmMwY2RmZmVzb1NFYXk3ZmFaeXBkOSIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmVlNTZjMGNkZmZlc29TRWF5N2ZhWnlwZDkifQ",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2ee56c0cdffesoSEay7faZypd9",
+        "acpxSessionId": "ses_2ee56c0cdffesoSEay7faZypd9",
+        "source": "ensure",
+        "lastUpdatedAt": 1774117797821
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "idle",
+      "lastActivityAt": 1774118220337
+    }
+  },
+  "agent:opencode:acp:454ca421-45bb-44d0-8963-e7682fff3ba4": {
+    "sessionId": "4d253f01-ca96-4a9c-a00f-ccd68adeee04",
+    "updatedAt": 1774129345913,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-deploy",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/4d253f01-ca96-4a9c-a00f-ccd68adeee04.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjQ1NGNhNDIxLTQ1YmItNDRkMC04OTYzLWU3NjgyZmZmM2JhNCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmVkYWM2NGVhZmZlYnRHRk9LNHE4TGVHRWgiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlZGFjNjRlYWZmZWJ0R0ZPSzRxOExlR0VoIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2edac64eaffebtGFOK4q8LeGEh",
+        "acpxSessionId": "ses_2edac64eaffebtGFOK4q8LeGEh",
+        "source": "ensure",
+        "lastUpdatedAt": 1774128962441
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774129345913
+    }
+  },
+  "agent:opencode:acp:f3af924c-3ad2-41b3-af63-eebb6e459d86": {
+    "sessionId": "a473103b-07e7-4945-a754-9cbe82b54f9d",
+    "updatedAt": 1774138634657,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/a473103b-07e7-4945-a754-9cbe82b54f9d.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmYzYWY5MjRjLTNhZDItNDFiMy1hZjYzLWVlYmI2ZTQ1OWQ4NiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmVkMWViYjdjZmZldGY2NXg0UEM4ejEwdG4iLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlZDFlYmI3Y2ZmZXRmNjV4NFBDOHoxMHRuIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2ed1ebb7cffetf65x4PC8z10tn",
+        "acpxSessionId": "ses_2ed1ebb7cffetf65x4PC8z10tn",
+        "source": "ensure",
+        "lastUpdatedAt": 1774138246412
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774138634657
+    }
+  },
+  "agent:opencode:acp:ccb50900-4ead-46b6-9295-9add8e20d6d9": {
+    "sessionId": "4aae2692-3a37-4509-b706-e898e1339e2a",
+    "updatedAt": 1774138929105,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/4aae2692-3a37-4509-b706-e898e1339e2a.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmNjYjUwOTAwLTRlYWQtNDZiNi05Mjk1LTlhZGQ4ZTIwZDZkOSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmVkMTRkNTdjZmZlNzY3T3pDNHNRb3FMRTAiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlZDE0ZDU3Y2ZmZTc2N096QzRzUW9xTEUwIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2ed14d57cffe767OzC4sQoqLE0",
+        "acpxSessionId": "ses_2ed14d57cffe767OzC4sQoqLE0",
+        "source": "ensure",
+        "lastUpdatedAt": 1774138895100
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774138929105
+    }
+  },
+  "agent:opencode:acp:8d708adf-4bb1-45a0-8257-87cf647c0f80": {
+    "sessionId": "416b00ff-9c23-41e0-aaea-1270925339bd",
+    "updatedAt": 1774141785918,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-submission-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/416b00ff-9c23-41e0-aaea-1270925339bd.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjhkNzA4YWRmLTRiYjEtNDVhMC04MjU3LTg3Y2Y2NDdjMGY4MCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmVjZWIwZjYwZmZlMzFLdTF4RnJqS3dKY0kiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlY2ViMGY2MGZmZTMxS3UxeEZyakt3SmNJIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2eceb0f60ffe31Ku1xFrjKwJcI",
+        "acpxSessionId": "ses_2eceb0f60ffe31Ku1xFrjKwJcI",
+        "source": "ensure",
+        "lastUpdatedAt": 1774141632791
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774141785918
+    }
+  },
+  "agent:opencode:acp:6f94854a-c32a-4d1a-bd1f-51b5ac6c2414": {
+    "sessionId": "13748957-5468-462c-8523-bb851157b93d",
+    "updatedAt": 1774143938320,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-wechat-submission",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/13748957-5468-462c-8523-bb851157b93d.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjZmOTQ4NTRhLWMzMmEtNGQxYS1iZDFmLTUxYjVhYzZjMjQxNCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmVjY2FjZmUxZmZlRXhVZWhyQ29aQVg1dFAiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlY2NhY2ZlMWZmZUV4VWVockNvWkFYNXRQIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2eccacfe1ffeExUehrCoZAX5tP",
+        "acpxSessionId": "ses_2eccacfe1ffeExUehrCoZAX5tP",
+        "source": "ensure",
+        "lastUpdatedAt": 1774143746199
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774143938320
+    }
+  },
+  "agent:opencode:acp:61182729-9bd8-4539-9a9e-889affdbaf74": {
+    "sessionId": "fd134d1a-cd97-4050-8926-da899d3e6859",
+    "updatedAt": 1774146270728,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "divination-submission-check",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/fd134d1a-cd97-4050-8926-da899d3e6859.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjYxMTgyNzI5LTliZDgtNDUzOS05YTllLTg4OWFmZmRiYWY3NCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmVjYTYxYzE1ZmZlMDN5Z0pJQ3RtM0FBNDYiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlY2E2MWMxNWZmZTAzeWdKSUN0bTNBQTQ2In0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2eca61c15ffe03ygJICtm3AA46",
+        "acpxSessionId": "ses_2eca61c15ffe03ygJICtm3AA46",
+        "source": "ensure",
+        "lastUpdatedAt": 1774146151522
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774146270727
+    }
+  },
+  "agent:opencode:acp:2ae5827d-ec7d-4939-ae90-6b41decd5216": {
+    "sessionId": "bc706797-5c64-4c09-8d67-3f5a7eef5fcc",
+    "updatedAt": 1774165496490,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "divination-final-sprint",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/bc706797-5c64-4c09-8d67-3f5a7eef5fcc.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjJhZTU4MjdkLWVjN2QtNDkzOS1hZTkwLTZiNDFkZWNkNTIxNiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmViODAxOWIyZmZla1d2REI0aGZVcVFVU0QiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlYjgwMTliMmZmZWtXdkRCNGhmVXFRVVNEIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2eb8019b2ffekWvDB4hfUqQUSD",
+        "acpxSessionId": "ses_2eb8019b2ffekWvDB4hfUqQUSD",
+        "source": "ensure",
+        "lastUpdatedAt": 1774165419727
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774165496490
+    }
+  },
+  "agent:opencode:acp:f4172fd2-74d5-4502-a72e-a6464edc59cf": {
+    "sessionId": "25947449-307b-4206-bc1c-42cd2fc25b04",
+    "updatedAt": 1774178325474,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/25947449-307b-4206-bc1c-42cd2fc25b04.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmY0MTcyZmQyLTc0ZDUtNDUwMi1hNzJlLWE2NDY0ZWRjNTljZiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yZWFiZjI3NGRmZmU4dEwxS1U1dTdSVjY1dyIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmVhYmYyNzRkZmZlOHRMMUtVNXU3UlY2NXcifQ",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2eabf274dffe8tL1KU5u7RV65w",
+        "acpxSessionId": "ses_2eabf274dffe8tL1KU5u7RV65w",
+        "source": "ensure",
+        "lastUpdatedAt": 1774178064712
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "idle",
+      "lastActivityAt": 1774178325474
+    }
+  },
+  "agent:opencode:acp:3550468d-a2a2-4aec-b9e5-c01b9065f0e8": {
+    "sessionId": "0e1071ef-ee82-4074-ab80-507344e87c33",
+    "updatedAt": 1774179434812,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-vercel-deploy",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/0e1071ef-ee82-4074-ab80-507344e87c33.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjM1NTA0NjhkLWEyYTItNGFlYy1iOWU1LWMwMWI5MDY1ZjBlOCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmVhYWNkYTQ4ZmZlTko2T0FMaGtTNTNmb0MiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlYWFjZGE0OGZmZU5KNk9BTGhrUzUzZm9DIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2eaacda48ffeNJ6OALhkS53foC",
+        "acpxSessionId": "ses_2eaacda48ffeNJ6OALhkS53foC",
+        "source": "ensure",
+        "lastUpdatedAt": 1774179264096
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774179434811
+    }
+  },
+  "agent:opencode:acp:3c242cfe-f98a-40a1-96fd-e4b83598216b": {
+    "sessionId": "3971124a-d3b8-42a0-b46b-ffa752376afc",
+    "updatedAt": 1774180694178,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-deploy-20260322-1953",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/3971124a-d3b8-42a0-b46b-ffa752376afc.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjNjMjQyY2ZlLWY5OGEtNDBhMS05NmZkLWU0YjgzNTk4MjE2YiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmVhOTkxYTk3ZmZlM2VXN1ZibEVVVnFvOHEiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlYTk5MWE5N2ZmZTNlVzdWYmxFVVZxbzhxIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2ea991a97ffe3eW7VblEUVqo8q",
+        "acpxSessionId": "ses_2ea991a97ffe3eW7VblEUVqo8q",
+        "source": "ensure",
+        "lastUpdatedAt": 1774180558342
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774180694178
+    }
+  },
+  "agent:opencode:acp:40cf04e0-120a-46bd-8cd7-2a3f8a6e5a6e": {
+    "sessionId": "50d7607c-c159-4d2b-abdd-e6c7e16be484",
+    "updatedAt": 1774206896910,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-final-push",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/50d7607c-c159-4d2b-abdd-e6c7e16be484.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjQwY2YwNGUwLTEyMGEtNDZiZC04Y2Q3LTJhM2Y4YTZlNWE2ZSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU5MDgwMzg5ZmZlZkJnOVZYemNSczdOSkQiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlOTA4MDM4OWZmZWZCZzlWWHpjUnM3TkpEIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e9080389ffefBg9VXzcRs7NJD",
+        "acpxSessionId": "ses_2e9080389ffefBg9VXzcRs7NJD",
+        "source": "ensure",
+        "lastUpdatedAt": 1774206844177
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774206896910
+    }
+  },
+  "agent:opencode:acp:c53901f5-63de-4111-b0ba-e952f5536d2e": {
+    "sessionId": "7a741cf5-fda5-4eaf-936a-4d31f6f408ff",
+    "updatedAt": 1774209703581,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-deploy-0323",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/7a741cf5-fda5-4eaf-936a-4d31f6f408ff.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmM1MzkwMWY1LTYzZGUtNDExMS1iMGJhLWU5NTJmNTUzNmQyZSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU4ZGZiMTY2ZmZldHhpbEN2b3YzRzBsTjMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlOGRmYjE2NmZmZXR4aWxDdm92M0cwbE4zIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e8dfb166ffetxilCvov3G0lN3",
+        "acpxSessionId": "ses_2e8dfb166ffetxilCvov3G0lN3",
+        "source": "ensure",
+        "lastUpdatedAt": 1774209486652
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774209703581
+    }
+  },
+  "agent:opencode:acp:8f5aff18-f0e1-4b7d-80f8-0f2d78df49a0": {
+    "sessionId": "93141329-d4d4-42b4-9aa1-a4c518413237",
+    "updatedAt": 1774216981084,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "vercel-deploy-task",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/93141329-d4d4-42b4-9aa1-a4c518413237.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjhmNWFmZjE4LWYwZTEtNGI3ZC04MGY4LTBmMmQ3OGRmNDlhMCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU4NzBiYzNiZmZlY3MyOUpQYkhKNDY5dkkiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlODcwYmMzYmZmZWNzMjlKUGJISjQ2OXZJIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e870bc3bffecs29JPbHJ469vI",
+        "acpxSessionId": "ses_2e870bc3bffecs29JPbHJ469vI",
+        "source": "ensure",
+        "lastUpdatedAt": 1774216758356
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774216981084
+    }
+  },
+  "agent:opencode:acp:f4f83e30-08bb-4ce6-ad77-81c2ff8640e3": {
+    "sessionId": "6359dc15-4c31-4686-8b22-b302620c4dc7",
+    "updatedAt": 1774218197546,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-react-sprint",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/6359dc15-4c31-4686-8b22-b302620c4dc7.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmY0ZjgzZTMwLTA4YmItNGNlNi1hZDc3LTgxYzJmZjg2NDBlMyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU4NWQ5ZmEzZmZlSDJhOWhBTVhwaXlMMmciLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlODVkOWZhM2ZmZUgyYTloQU1YcGl5TDJnIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e85d9fa3ffeH2a9hAMXpiyL2g",
+        "acpxSessionId": "ses_2e85d9fa3ffeH2a9hAMXpiyL2g",
+        "source": "ensure",
+        "lastUpdatedAt": 1774218010869
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774218197546
+    }
+  },
+  "agent:opencode:acp:b2120725-4ad6-4e1f-83e3-b38055d88d25": {
+    "sessionId": "874ba242-eac1-4c0e-8bba-c0973c9fd840",
+    "updatedAt": 1774219955817,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-64-hexagrams-complete",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/874ba242-eac1-4c0e-8bba-c0973c9fd840.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmIyMTIwNzI1LTRhZDYtNGUxZi04M2UzLWIzODA1NWQ4OGQyNSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU4NDlkN2FhZmZlck1mS3RReTB0UTRUY3IiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlODQ5ZDdhYWZmZXJNZkt0UXkwdFE0VGNyIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e849d7aafferMfKtQy0tQ4Tcr",
+        "acpxSessionId": "ses_2e849d7aafferMfKtQy0tQ4Tcr",
+        "source": "ensure",
+        "lastUpdatedAt": 1774219307254
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774219955817
+    }
+  },
+  "agent:opencode:acp:17158467-75ef-4316-8b0c-e687b5abbfd4": {
+    "sessionId": "92bc7a17-254a-4ac0-af88-b14cadb0d6d5",
+    "updatedAt": 1774221843396,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dev-check",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/92bc7a17-254a-4ac0-af88-b14cadb0d6d5.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjE3MTU4NDY3LTc1ZWYtNDMxNi04YjBjLWU2ODdiNWFiYmZkNCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU4MjViZTUwZmZlNGtyUnRsM0NsMXl2aUYiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlODI1YmU1MGZmZTRrclJ0bDNDbDF5dmlGIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e825be50ffe4krRtl3Cl1yviF",
+        "acpxSessionId": "ses_2e825be50ffe4krRtl3Cl1yviF",
+        "source": "ensure",
+        "lastUpdatedAt": 1774221673060
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774221843396
+    }
+  },
+  "agent:opencode:acp:fbccbfd9-1018-4ed7-92c3-2a993f5a4f95": {
+    "sessionId": "0e09becf-ac84-4db4-90ad-fd4dc23c9b7c",
+    "updatedAt": 1774231845759,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-react-final-sprint",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/0e09becf-ac84-4db4-90ad-fd4dc23c9b7c.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmZiY2NiZmQ5LTEwMTgtNGVkNy05MmMzLTJhOTkzZjVhNGY5NSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU3OGMxNTJkZmZlNzhCTEZTOTZMYWx4Vm4iLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlNzhjMTUyZGZmZTc4QkxGUzk2TGFseFZuIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e78c152dffe78BLFS96LalxVn",
+        "acpxSessionId": "ses_2e78c152dffe78BLFS96LalxVn",
+        "source": "ensure",
+        "lastUpdatedAt": 1774231743476
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774231845759
+    }
+  },
+  "agent:opencode:acp:3d2cf348-0b83-4a5d-861a-1f9546c02cd1": {
+    "sessionId": "f0ce4678-2c8e-4d31-99fb-e1482f07674f",
+    "updatedAt": 1774235499940,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "vercel-deploy-sprint-2",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/f0ce4678-2c8e-4d31-99fb-e1482f07674f.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjNkMmNmMzQ4LTBiODMtNGE1ZC04NjFhLTFmOTU0NmMwMmNkMSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU3NTY2NGU2ZmZlbkVMSzdpVDcyTjJXRHYiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlNzU2NjRlNmZmZW5FTEs3aVQ3Mk4yV0R2In0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e75664e6ffenELK7iT72N2WDv",
+        "acpxSessionId": "ses_2e75664e6ffenELK7iT72N2WDv",
+        "source": "ensure",
+        "lastUpdatedAt": 1774235261949
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774235499940
+    }
+  },
+  "agent:opencode:acp:57f86884-46f6-4a54-9bae-3c7f63df1257": {
+    "sessionId": "7d867206-ac7e-4bd1-9d35-b2abd541ff25",
+    "updatedAt": 1774237750557,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-progress-check",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/7d867206-ac7e-4bd1-9d35-b2abd541ff25.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjU3Zjg2ODg0LTQ2ZjYtNGE1NC05YmFlLTNjN2Y2M2RmMTI1NyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU3MzBlOGE3ZmZlQnpYUEgwSUJHVUlXdFMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlNzMwZThhN2ZmZUJ6WFBIMElCR1VJV3RTIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e730e8a7ffeBzXPH0IBGUIWtS",
+        "acpxSessionId": "ses_2e730e8a7ffeBzXPH0IBGUIWtS",
+        "source": "ensure",
+        "lastUpdatedAt": 1774237718577
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774237750557
+    }
+  },
+  "agent:opencode:acp:c92794ad-92c5-4bdc-9426-ed937dc47ccd": {
+    "sessionId": "2e93d53b-ee3b-4058-9f80-b1a94a20ee45",
+    "updatedAt": 1774241524455,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-react-interpretation",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/2e93d53b-ee3b-4058-9f80-b1a94a20ee45.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmM5Mjc5NGFkLTkyYzUtNGJkYy05NDI2LWVkOTM3ZGM0N2NjZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU2ZjhlYTE3ZmZlb0lxeGVJaU1MYUgxQzkiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlNmY4ZWExN2ZmZW9JcXhlSWlNTGFIMUM5In0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e6f8ea17ffeoIqxeIiMLaH1C9",
+        "acpxSessionId": "ses_2e6f8ea17ffeoIqxeIiMLaH1C9",
+        "source": "ensure",
+        "lastUpdatedAt": 1774241388244
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774241524455
+    }
+  },
+  "agent:opencode:acp:23f6a94c-7263-4706-9e65-3c181eaf6555": {
+    "sessionId": "299b76fc-bdb8-48a1-866c-374ab48d579e",
+    "updatedAt": 1774244008698,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-20min-sprint-1329",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/299b76fc-bdb8-48a1-866c-374ab48d579e.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjIzZjZhOTRjLTcyNjMtNDcwNi05ZTY1LTNjMTgxZWFmNjU1NSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU2ZDI2ZjBmZmZlQUhPbGhhY09ld3VHNUsiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlNmQyNmYwZmZmZUFIT2xoYWNPZXd1RzVLIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e6d26f0fffeAHOlhacOewuG5K",
+        "acpxSessionId": "ses_2e6d26f0fffeAHOlhacOewuG5K",
+        "source": "ensure",
+        "lastUpdatedAt": 1774243910393
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774244008698
+    }
+  },
+  "agent:opencode:acp:2a68d1ff-88a3-4089-83fe-a496ffa386f1": {
+    "sessionId": "c2f129d1-5e4b-4beb-9bb2-06293959f7a7",
+    "updatedAt": 1774289830068,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-deployment-enhancement",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/c2f129d1-5e4b-4beb-9bb2-06293959f7a7.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjJhNjhkMWZmLTg4YTMtNDA4OS04M2ZlLWE0OTZmZmEzODZmMSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU0MTgyODcxZmZlQ1hhbmN3YXJXeXk3WTgiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlNDE4Mjg3MWZmZUNYYW5jd2FyV3l5N1k4In0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e4182871ffeCXancwarWyy7Y8",
+        "acpxSessionId": "ses_2e4182871ffeCXancwarWyy7Y8",
+        "source": "ensure",
+        "lastUpdatedAt": 1774289672294
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774289830068
+    }
+  },
+  "agent:opencode:acp:19a6303b-c386-4a8e-b116-8929b10c58af": {
+    "sessionId": "6fec6a2a-4396-444e-aa3d-bdb4a640be7c",
+    "updatedAt": 1774289914435,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "divination-sprint-0215",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/6fec6a2a-4396-444e-aa3d-bdb4a640be7c.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjE5YTYzMDNiLWMzODYtNGE4ZS1iMTE2LTg5MjliMTBjNThhZiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmU0MTY1MGRhZmZlSmd5SDM2aU1JVkdKMDMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlNDE2NTBkYWZmZUpneUgzNmlNSVZHSjAzIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e41650daffeJgyH36iMIVGJ03",
+        "acpxSessionId": "ses_2e41650daffeJgyH36iMIVGJ03",
+        "source": "ensure",
+        "lastUpdatedAt": 1774289793006
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774289914435
+    }
+  },
+  "agent:opencode:acp:cac5a9fc-2984-4c41-9532-da9db71e7c30": {
+    "sessionId": "813cf80c-1eb3-47fb-82f5-fa0e30e2658b",
+    "updatedAt": 1774312612565,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-sprint-0324-0833",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/813cf80c-1eb3-47fb-82f5-fa0e30e2658b.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmNhYzVhOWZjLTI5ODQtNGM0MS05NTMyLWRhOWRiNzFlN2MzMCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmUyYmMxNTNmZmZldmY1MjRYUXVMRXBFRFUiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlMmJjMTUzZmZmZXZmNTI0WFF1TEVwRURVIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e2bc153fffevf524XQuLEpEDU",
+        "acpxSessionId": "ses_2e2bc153fffevf524XQuLEpEDU",
+        "source": "ensure",
+        "lastUpdatedAt": 1774312483726
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774312612565
+    }
+  },
+  "agent:opencode:acp:e47ac7f9-18b4-427a-a7b0-dedd83b8f157": {
+    "sessionId": "cf053c45-ec8d-4f16-9170-ec992bdc7897",
+    "updatedAt": 1774320288505,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "nginx-config-task",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/cf053c45-ec8d-4f16-9170-ec992bdc7897.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmU0N2FjN2Y5LTE4YjQtNDI3YS1hN2IwLWRlZGQ4M2I4ZjE1NyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmUyNDUzM2U5ZmZlb0cwUVd3UkVldkVRakYiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlMjQ1MzNlOWZmZW9HMFFXd1JFZXZFUWpGIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2e24533e9ffeoG0QWwREevEQjF",
+        "acpxSessionId": "ses_2e24533e9ffeoG0QWwREevEQjF",
+        "source": "ensure",
+        "lastUpdatedAt": 1774320275086
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "error",
+      "lastActivityAt": 1774320288505,
+      "lastError": "Permission denied by ACP runtime (acpx). ACPX blocked a write/exec permission request in a non-interactive session. Configure plugins.entries.acpx.config.permissionMode to one of: approve-reads, approve-all, deny-all."
+    }
+  },
+  "agent:opencode:acp:b59ed7e4-e664-461a-a964-1638085ab63d": {
+    "sessionId": "5c7e1ec2-54a5-4bd5-bd00-6d424a5c11e8",
+    "updatedAt": 1774320516265,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "nginx-80-port-check",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/5c7e1ec2-54a5-4bd5-bd00-6d424a5c11e8.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmI1OWVkN2U0LWU2NjQtNDYxYS1hOTY0LTE2MzgwODVhYjYzZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmUyNDFhYTNkZmZlaUdpbWE1SU1QSXdUUHMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlMjQxYWEzZGZmZWlHaW1hNUlNUEl3VFBzIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2e241aa3dffeiGima5IMPIwTPs",
+        "acpxSessionId": "ses_2e241aa3dffeiGima5IMPIwTPs",
+        "source": "ensure",
+        "lastUpdatedAt": 1774320506907
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "error",
+      "lastActivityAt": 1774320516265,
+      "lastError": "Permission denied by ACP runtime (acpx). ACPX blocked a write/exec permission request in a non-interactive session. Configure plugins.entries.acpx.config.permissionMode to one of: approve-reads, approve-all, deny-all."
+    }
+  },
+  "agent:opencode:acp:5d5e8c09-78a0-46c3-8868-e9c0e94ea238": {
+    "sessionId": "bcfa2af7-e58a-40d7-a0af-a9dd917eee34",
+    "updatedAt": 1774320597805,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "nginx-8000-proxy",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/bcfa2af7-e58a-40d7-a0af-a9dd917eee34.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjVkNWU4YzA5LTc4YTAtNDZjMy04ODY4LWU5YzBlOTRlYTIzOCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmUyNDA4Y2MxZmZlTTdJcTM5UzJQUXViRjciLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlMjQwOGNjMWZmZU03SXEzOVMyUFF1YkY3In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2e2408cc1ffeM7Iq39S2PQubF7",
+        "acpxSessionId": "ses_2e2408cc1ffeM7Iq39S2PQubF7",
+        "source": "ensure",
+        "lastUpdatedAt": 1774320579966
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "error",
+      "lastActivityAt": 1774320597805,
+      "lastError": "Permission denied by ACP runtime (acpx). ACPX blocked a write/exec permission request in a non-interactive session. Configure plugins.entries.acpx.config.permissionMode to one of: approve-reads, approve-all, deny-all."
+    }
+  },
+  "agent:opencode:acp:28b3ef43-05fb-47bb-beb1-8f54a9b1218d": {
+    "sessionId": "6fdfc1b6-4a19-41c9-a72d-e0eabffaddb2",
+    "updatedAt": 1774323043891,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "stock-system-full-test",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/6fdfc1b6-4a19-41c9-a72d-e0eabffaddb2.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjI4YjNlZjQzLTA1ZmItNDdiYi1iZWIxLThmNTRhOWIxMjE4ZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmUyMjUzODg0ZmZlbzIyQUw0TlJGVjBUY3oiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlMjI1Mzg4NGZmZW8yMkFMNE5SRlYwVGN6In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2e2253884ffeo22AL4NRFV0Tcz",
+        "acpxSessionId": "ses_2e2253884ffeo22AL4NRFV0Tcz",
+        "source": "ensure",
+        "lastUpdatedAt": 1774322371113
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774323043891
+    }
+  },
+  "agent:opencode:acp:2c6e2f4f-fa92-4e5e-ab18-60d81b469c15": {
+    "sessionId": "71a19357-b5c9-4904-9e20-cb5bf6d7f1bd",
+    "updatedAt": 1774323360858,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "fix-2-issues",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/71a19357-b5c9-4904-9e20-cb5bf6d7f1bd.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjJjNmUyZjRmLWZhOTItNGU1ZS1hYjE4LTYwZDgxYjQ2OWMxNSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmUyMThkMDNmZmZlcnJHcG1uWFc2ckxsckciLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlMjE4ZDAzZmZmZXJyR3BtblhXNnJMbHJHIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2e218d03ffferrGpmnXW6rLlrG",
+        "acpxSessionId": "ses_2e218d03ffferrGpmnXW6rLlrG",
+        "source": "ensure",
+        "lastUpdatedAt": 1774323184180
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774323360858
+    }
+  },
+  "agent:opencode:acp:396963e2-82d7-427e-acf7-3c762b57f363": {
+    "sessionId": "6c0ee0c8-9297-43d2-bf81-8e6aacdecac6",
+    "updatedAt": 1774344025272,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-check-0324-1713",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/6c0ee0c8-9297-43d2-bf81-8e6aacdecac6.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjM5Njk2M2UyLTgyZDctNDI3ZS1hY2Y3LTNjNzYyYjU3ZjM2MyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmUwZTA2YTdjZmZlTjdNY1J4RldqV2hqN3oiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlMGUwNmE3Y2ZmZU43TWNSeEZXaldoajd6In0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e0e06a7cffeN7McRxFWjWhj7z",
+        "acpxSessionId": "ses_2e0e06a7cffeN7McRxFWjWhj7z",
+        "source": "ensure",
+        "lastUpdatedAt": 1774343657087
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774344025272
+    }
+  },
+  "agent:opencode:acp:fd319a2c-1943-4eed-97e5-47dec4fae99f": {
+    "sessionId": "eae4213e-9740-414c-ac62-a72eaedf57c6",
+    "updatedAt": 1774348470306,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "divination-20min-sprint",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/eae4213e-9740-414c-ac62-a72eaedf57c6.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmZkMzE5YTJjLTE5NDMtNGVlZC05N2U1LTQ3ZGVjNGZhZTk5ZiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmUwOWFjYTM3ZmZlWEN6RHJtOE16a3paelgiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlMDlhY2EzN2ZmZVhDekRybThNemt6WnpYIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e09aca37ffeXCzDrm8MzkzZzX",
+        "acpxSessionId": "ses_2e09aca37ffeXCzDrm8MzkzZzX",
+        "source": "ensure",
+        "lastUpdatedAt": 1774348220080
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774348470306
+    }
+  },
+  "agent:opencode:acp:2263c220-4dd3-4c19-8346-24860d001262": {
+    "sessionId": "bec07e76-37d9-4c42-97ad-92cf63e0ac5c",
+    "updatedAt": 1774357337810,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-analytics-enhancement",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/bec07e76-37d9-4c42-97ad-92cf63e0ac5c.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjIyNjNjMjIwLTRkZDMtNGMxOS04MzQ2LTI0ODYwZDAwMTI2MiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmUwMTU1NTVlZmZldlpBaGRnQlJTZGkxWVEiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJlMDE1NTU1ZWZmZXZaQWhkZ0JSU2RpMVlRIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2e015555effevZAhdgBRSdi1YQ",
+        "acpxSessionId": "ses_2e015555effevZAhdgBRSdi1YQ",
+        "source": "ensure",
+        "lastUpdatedAt": 1774356966331
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774357337810
+    }
+  },
+  "agent:opencode:acp:b294bfae-d871-43cf-9166-6c5c75a476d2": {
+    "sessionId": "1a2387a9-a6a3-418a-8220-9297fc84b5ae",
+    "updatedAt": 1774399872591,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/1a2387a9-a6a3-418a-8220-9297fc84b5ae.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmIyOTRiZmFlLWQ4NzEtNDNjZi05MTY2LTZjNWM3NWE0NzZkMiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmRkOTM3OTFiZmZlcUphTE5XVHlTNE95VEsiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkZDkzNzkxYmZmZXFKYUxOV1R5UzRPeVRLIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2dd93791bffeqJaLNWTyS4OyTK",
+        "acpxSessionId": "ses_2dd93791bffeqJaLNWTyS4OyTK",
+        "source": "ensure",
+        "lastUpdatedAt": 1774399031295
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774399872591
+    }
+  },
+  "agent:opencode:acp:ec21418f-aacd-4f14-8fab-be10e122beab": {
+    "sessionId": "23f3f088-7476-41f4-a541-668ba5ceb167",
+    "updatedAt": 1774406896913,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dev-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/23f3f088-7476-41f4-a541-668ba5ceb167.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmVjMjE0MThmLWFhY2QtNGYxNC04ZmFiLWJlMTBlMTIyYmVhYiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmRkMjEyMmZmZmZlUmx4dnhXVndzMlpQUEMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkZDIxMjJmZmZmZVJseHZ4V1Z3czJaUFBDIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2dd2122ffffeRlxvxWVws2ZPPC",
+        "acpxSessionId": "ses_2dd2122ffffeRlxvxWVws2ZPPC",
+        "source": "ensure",
+        "lastUpdatedAt": 1774406524372
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774406896913
+    }
+  },
+  "agent:opencode:acp:cb434f43-554f-4964-b8d3-816449d5511b": {
+    "sessionId": "94abda7b-b1fb-485f-842c-68830e299223",
+    "updatedAt": 1774426837818,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dashboard-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/94abda7b-b1fb-485f-842c-68830e299223.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmNiNDM0ZjQzLTU1NGYtNDk2NC1iOGQzLTgxNjQ0OWQ1NTExYiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmRiZWU1NTcyZmZlMVVIV3JSVFB3TmtQS3kiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkYmVlNTU3MmZmZTFVSFdyUlRQd05rUEt5In0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2dbee5572ffe1UHWrRTPwNkPKy",
+        "acpxSessionId": "ses_2dbee5572ffe1UHWrRTPwNkPKy",
+        "source": "ensure",
+        "lastUpdatedAt": 1774426631093
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774426837818
+    }
+  },
+  "agent:opencode:acp:60ca84db-4971-4b48-baaa-a1dc96148529": {
+    "sessionId": "b65a1133-79be-4697-9adb-898a6b2397e2",
+    "updatedAt": 1774436699633,
+    "spawnedBy": "agent:main:feishu:direct:ou_dc6f71ca452eaaf7f37b684c2b77ad0c",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/b65a1133-79be-4697-9adb-898a6b2397e2.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjYwY2E4NGRiLTQ5NzEtNGI0OC1iYWFhLWExZGM5NjE0ODUyOSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmRiNTRkMWM5ZmZlM295OEVBUzdlYjNGNXoiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkYjU0ZDFjOWZmZTNveThFQVM3ZWIzRjV6In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2db54d1c9ffe3oy8EAS7eb3F5z",
+        "acpxSessionId": "ses_2db54d1c9ffe3oy8EAS7eb3F5z",
+        "source": "ensure",
+        "lastUpdatedAt": 1774436692208
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774436699633
+    }
+  },
+  "agent:opencode:acp:63d75870-55fb-47ef-ba1b-886b5802aae4": {
+    "sessionId": "c1d00201-eb00-44fe-90a5-3535e4fec5f4",
+    "updatedAt": 1774437344438,
+    "spawnedBy": "agent:main:feishu:direct:ou_dc6f71ca452eaaf7f37b684c2b77ad0c",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/c1d00201-eb00-44fe-90a5-3535e4fec5f4.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjYzZDc1ODcwLTU1ZmItNDdlZi1iYTFiLTg4NmI1ODAyYWFlNCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmRiNGFmOTEyZmZlc2tkYXNEU1hPSXVGMW4iLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkYjRhZjkxMmZmZXNrZGFzRFNYT0l1RjFuIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2db4af912ffeskdasDSXOIuF1n",
+        "acpxSessionId": "ses_2db4af912ffeskdasDSXOIuF1n",
+        "source": "ensure",
+        "lastUpdatedAt": 1774437337453
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774437344438
+    }
+  },
+  "agent:opencode:acp:4ac95ad3-c22e-4c4f-8c02-b1a3a98af31e": {
+    "sessionId": "e627ec60-cdfc-4e68-909c-af2f567f5327",
+    "updatedAt": 1774445523013,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "deploy-divination-vercel",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/e627ec60-cdfc-4e68-909c-af2f567f5327.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjRhYzk1YWQzLWMyMmUtNGM0Zi04YzAyLWIxYTNhOThhZjMxZSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmRhZDExNDMyZmZlU2pnWmJ5N2I1QnByQWwiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkYWQxMTQzMmZmZVNqZ1pieTdiNUJwckFsIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2dad11432ffeSjgZby7b5BprAl",
+        "acpxSessionId": "ses_2dad11432ffeSjgZby7b5BprAl",
+        "source": "ensure",
+        "lastUpdatedAt": 1774445325595
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774445523013
+    }
+  },
+  "agent:opencode:acp:0bb67cf5-f3e4-436a-94c1-a77aaf33d816": {
+    "sessionId": "2232278e-38e1-46bd-bcf0-7222282bfca1",
+    "updatedAt": 1774450270974,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dev-22-45",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/2232278e-38e1-46bd-bcf0-7222282bfca1.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjBiYjY3Y2Y1LWYzZTQtNDM2YS05NGMxLWE3N2FhZjMzZDgxNiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmRhODliYzc5ZmZlejAwTXFpN0dDcmRleHoiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkYTg5YmM3OWZmZXowME1xaTdHQ3JkZXh6In0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2da89bc79ffez00Mqi7GCrdexz",
+        "acpxSessionId": "ses_2da89bc79ffez00Mqi7GCrdexz",
+        "source": "ensure",
+        "lastUpdatedAt": 1774450001074
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774450270974
+    }
+  },
+  "agent:opencode:acp:a7dd8a03-1962-442e-8789-08c36a1958aa": {
+    "sessionId": "3a016895-3461-46e5-9b26-e9920162012f",
+    "updatedAt": 1774462496804,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/3a016895-3461-46e5-9b26-e9920162012f.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmE3ZGQ4YTAzLTE5NjItNDQyZS04Nzg5LTA4YzM2YTE5NThhYSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ5Y2I0ZjZkZmZlTFhxQlhQamxZZkxnMVMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkOWNiNGY2ZGZmZUxYcUJYUGpsWWZMZzFTIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2d9cb4f6dffeLXqBXPjlYfLg1S",
+        "acpxSessionId": "ses_2d9cb4f6dffeLXqBXPjlYfLg1S",
+        "source": "ensure",
+        "lastUpdatedAt": 1774462480853
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "error",
+      "lastActivityAt": 1774462496804,
+      "lastError": "Permission denied by ACP runtime (acpx). ACPX blocked a write/exec permission request in a non-interactive session. Configure plugins.entries.acpx.config.permissionMode to one of: approve-reads, approve-all, deny-all."
+    }
+  },
+  "agent:opencode:acp:20745ec3-7fc5-468d-9693-b8cbec1154aa": {
+    "sessionId": "72ea36cb-4082-4fd2-b3bf-70de8013c1d1",
+    "updatedAt": 1774474839901,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/72ea36cb-4082-4fd2-b3bf-70de8013c1d1.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjIwNzQ1ZWMzLTdmYzUtNDY4ZC05NjkzLWI4Y2JlYzExNTRhYSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ5MTAyMzNhZmZlN2tBeHBBaWlZOUVkMVMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkOTEwMjMzYWZmZTdrQXhwQWlpWTlFZDFTIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2d910233affe7kAxpAiiY9Ed1S",
+        "acpxSessionId": "ses_2d910233affe7kAxpAiiY9Ed1S",
+        "source": "ensure",
+        "lastUpdatedAt": 1774474747322
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774474839901
+    }
+  },
+  "agent:opencode:acp:87daef78-bae8-4134-8439-2fbfac5598d1": {
+    "sessionId": "18e65234-fa4d-4205-b560-640939b13f9c",
+    "updatedAt": 1774504919474,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-a11y-optimization",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/18e65234-fa4d-4205-b560-640939b13f9c.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjg3ZGFlZjc4LWJhZTgtNDEzNC04NDM5LTJmYmZhYzU1OThkMSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ3NTExMTFjZmZlZmhFOE9CUkRISGEybXAiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNzUxMTExY2ZmZWZoRThPQlJESEhhMm1wIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2d751111cffefhE8OBRDHHa2mp",
+        "acpxSessionId": "ses_2d751111cffefhE8OBRDHHa2mp",
+        "source": "ensure",
+        "lastUpdatedAt": 1774504046656
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774504919474
+    }
+  },
+  "agent:opencode:acp:d136dd65-0e41-419c-b61e-6201ae77d9ca": {
+    "sessionId": "33e6afc2-f7aa-4ad0-b40e-4ef503101741",
+    "updatedAt": 1774511858357,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/33e6afc2-f7aa-4ad0-b40e-4ef503101741.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmQxMzZkZDY1LTBlNDEtNDE5Yy1iNjFlLTYyMDFhZTc3ZDljYSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yZDZlZjgzZWFmZmVHVzZQQzlLQU9Yb2hscyIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmQ2ZWY4M2VhZmZlR1c2UEM5S0FPWG9obHMifQ",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2d6ef83eaffeGW6PC9KAOXohls",
+        "acpxSessionId": "ses_2d6ef83eaffeGW6PC9KAOXohls",
+        "source": "ensure",
+        "lastUpdatedAt": 1774510439709
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "idle",
+      "lastActivityAt": 1774511858357
+    }
+  },
+  "agent:opencode:acp:ad674c64-cd45-4d70-aceb-1c3225489324": {
+    "sessionId": "168fb6d0-3c89-4c72-afe3-f2d300875df9",
+    "updatedAt": 1774513342826,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-seo-optimization",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/168fb6d0-3c89-4c72-afe3-f2d300875df9.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmFkNjc0YzY0LWNkNDUtNGQ3MC1hY2ViLTFjMzIyNTQ4OTMyNCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ2Yzk3YzhkZmZlRTJpeXRIY2wwemYzRlUiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNmM5N2M4ZGZmZUUyaXl0SGNsMHpmM0ZVIn0",
+      "identity": {
+        "state": "pending",
+        "acpxRecordId": "ses_2d6c97c8dffeE2iytHcl0zf3FU",
+        "acpxSessionId": "ses_2d6c97c8dffeE2iytHcl0zf3FU",
+        "source": "ensure",
+        "lastUpdatedAt": 1774512932040
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774513342826
+    }
+  },
+  "agent:opencode:acp:d50bb649-8b9d-4f32-9bb3-48382516ef68": {
+    "sessionId": "6be067fe-feed-424f-8d2d-6ac6f87b80fe",
+    "updatedAt": 1774550614799,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商小程序 - 主架构",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/6be067fe-feed-424f-8d2d-6ac6f87b80fe.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmQ1MGJiNjQ5LThiOWQtNGYzMi05YmIzLTQ4MzgyNTE2ZWY2OCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ0OGU1NDIyZmZlVFR6Q29FNTBsNGR2MzQiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNDhlNTQyMmZmZVRUekNvRTUwbDRkdjM0In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d48e5422ffeTTzCoE50l4dv34",
+        "acpxSessionId": "ses_2d48e5422ffeTTzCoE50l4dv34",
+        "source": "ensure",
+        "lastUpdatedAt": 1774550363635
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774550614093
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774550354997,
+    "abortedLastRun": false,
+    "endedAt": 1774550614467,
+    "runtimeMs": 259470
+  },
+  "agent:opencode:acp:9559c39f-289e-437f-b84f-a2436315b3b7": {
+    "sessionId": "60037d01-94a9-4c8c-aedf-232ea402065d",
+    "updatedAt": 1774550709550,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商小程序 - 后端 API",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/60037d01-94a9-4c8c-aedf-232ea402065d.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjk1NTljMzlmLTI4OWUtNDM3Zi1iODRmLWEyNDM2MzE1YjNiNyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ0OGU0ZmEzZmZlcEVXTzdTWm0wSUltOTUiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNDhlNGZhM2ZmZXBFV083U1ptMElJbTk1In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d48e4fa3ffepEWO7SZm0IIm95",
+        "acpxSessionId": "ses_2d48e4fa3ffepEWO7SZm0IIm95",
+        "source": "ensure",
+        "lastUpdatedAt": 1774550364683
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774550708923
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774550355781,
+    "abortedLastRun": false,
+    "endedAt": 1774550709224,
+    "runtimeMs": 353443
+  },
+  "agent:opencode:acp:4ff2d421-3f45-4584-aa49-fe6e13398c3a": {
+    "sessionId": "2b8191a8-3a7a-461f-9acc-090f47a43825",
+    "updatedAt": 1774550919840,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商小程序 - 手机网页版",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/2b8191a8-3a7a-461f-9acc-090f47a43825.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjRmZjJkNDIxLTNmNDUtNDU4NC1hYTQ5LWZlNmUxMzM5OGMzYSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ0OGU1MTlhZmZlZG9yN0M1ajE3QWZ3OTgiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNDhlNTE5YWZmZWRvcjdDNWoxN0Fmdzk4In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d48e519affedor7C5j17Afw98",
+        "acpxSessionId": "ses_2d48e519affedor7C5j17Afw98",
+        "source": "ensure",
+        "lastUpdatedAt": 1774550364393
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774550919315
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774550355424,
+    "abortedLastRun": false,
+    "endedAt": 1774550919628,
+    "runtimeMs": 564204
+  },
+  "agent:opencode:acp:d2d899a1-4a76-4778-a78b-ca7e82bf1900": {
+    "sessionId": "b8dedc25-a348-4285-8d2f-05cb26894fce",
+    "updatedAt": 1774550680240,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商小程序 - 后台管理",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/b8dedc25-a348-4285-8d2f-05cb26894fce.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmQyZDg5OWExLTRhNzYtNDc3OC1hNzhiLWNhN2U4MmJmMTkwMCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ0OGU1ZjI0ZmZlRTNab2NvU2ZjQ0dHeWMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNDhlNWYyNGZmZUUzWm9jb1NmY0NHR3ljIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d48e5f24ffeE3ZocoSfcCGGyc",
+        "acpxSessionId": "ses_2d48e5f24ffeE3ZocoSfcCGGyc",
+        "source": "ensure",
+        "lastUpdatedAt": 1774550360783
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774550679559
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774550352581,
+    "abortedLastRun": false,
+    "endedAt": 1774550679897,
+    "runtimeMs": 327316
+  },
+  "agent:opencode:acp:8ba6c518-e989-474d-97dd-2f2cd4310452": {
+    "sessionId": "ae357eca-17ce-424e-a327-a3b4b387ed9b",
+    "updatedAt": 1774551383003,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商-MVP 手机网页",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/ae357eca-17ce-424e-a327-a3b4b387ed9b.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjhiYTZjNTE4LWU5ODktNDc0ZC05N2RkLTJmMmNkNDMxMDQ1MiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ0ODg2ODg1ZmZlR2tlNjZVcjIzWjF5aWoiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNDg4Njg4NWZmZUdrZTY2VXIyM1oxeWlqIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d4886885ffeGke66Ur23Z1yij",
+        "acpxSessionId": "ses_2d4886885ffeGke66Ur23Z1yij",
+        "source": "ensure",
+        "lastUpdatedAt": 1774550751578
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774551382496
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774550741353,
+    "abortedLastRun": false,
+    "endedAt": 1774551382806,
+    "runtimeMs": 641453
+  },
+  "agent:opencode:acp:1955e694-b5b1-405a-99ad-6d97020624d3": {
+    "sessionId": "9eae2949-1cf4-4e9a-87ce-47979cc093c2",
+    "updatedAt": 1774551106662,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商-MVP 后端 API",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/9eae2949-1cf4-4e9a-87ce-47979cc093c2.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjE5NTVlNjk0LWI1YjEtNDA1YS05OWFkLTZkOTcwMjA2MjRkMyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ0ODg2ZTExZmZlME4yM2dKVlZHNmJBU0EiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNDg4NmUxMWZmZTBOMjNnSlZWRzZiQVNBIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d4886e11ffe0N23gJVVG6bASA",
+        "acpxSessionId": "ses_2d4886e11ffe0N23gJVVG6bASA",
+        "source": "ensure",
+        "lastUpdatedAt": 1774550750433
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774551106097
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774550740641,
+    "abortedLastRun": false,
+    "endedAt": 1774551106389,
+    "runtimeMs": 365748
+  },
+  "agent:opencode:acp:f16ed3d3-7561-4620-87f4-bf09f1d3ce1f": {
+    "sessionId": "e25189d1-3aed-4268-8cec-1c4ab39b48c6",
+    "updatedAt": 1774550981995,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商-MVP 后台管理",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/e25189d1-3aed-4268-8cec-1c4ab39b48c6.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmYxNmVkM2QzLTc1NjEtNDYyMC04N2Y0LWJmMDlmMWQzY2UxZiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ0ODg2N2U3ZmZlQW9sVDFJWjQzbUQ4YTkiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNDg4NjdlN2ZmZUFvbFQxSVo0M21EOGE5In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d48867e7ffeAolT1IZ43mD8a9",
+        "acpxSessionId": "ses_2d48867e7ffeAolT1IZ43mD8a9",
+        "source": "ensure",
+        "lastUpdatedAt": 1774550751703
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774550981444
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774550741566,
+    "abortedLastRun": false,
+    "endedAt": 1774550981792,
+    "runtimeMs": 240226
+  },
+  "agent:opencode:acp:cf0fa1e8-727c-4952-aadf-21c93c97dc6f": {
+    "sessionId": "1004377a-4a8f-4676-b0ec-33f85956c5fe",
+    "updatedAt": 1774550814148,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商-MVP 数据库",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/1004377a-4a8f-4676-b0ec-33f85956c5fe.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmNmMGZhMWU4LTcyN2MtNDk1Mi1hYWRmLTIxYzkzYzk3ZGM2ZiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQ0ODg2YjBiZmZlTlFGVTd0TnRKQ1M5VGMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkNDg4NmIwYmZmZU5RRlU3dE50SkNTOVRjIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d4886b0bffeNQFU7tNtJCS9Tc",
+        "acpxSessionId": "ses_2d4886b0bffeNQFU7tNtJCS9Tc",
+        "source": "ensure",
+        "lastUpdatedAt": 1774550751363
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774550813622
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774550741070,
+    "abortedLastRun": false,
+    "endedAt": 1774550813890,
+    "runtimeMs": 72820
+  },
+  "agent:opencode:acp:2b0ae542-3c48-413c-b58f-b78bcdbd751e": {
+    "sessionId": "a051a7bd-2da3-4413-9d90-96d07ea5d6e3",
+    "updatedAt": 1774575308505,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dev-20min-sprint",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/a051a7bd-2da3-4413-9d90-96d07ea5d6e3.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjJiMGFlNTQyLTNjNDgtNDEzYy1iNThmLWI3OGJjZGJkNzUxZSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQzMTI4OTVhZmZlcmloVFY1QTl6c244TnoiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkMzEyODk1YWZmZXJpaFRWNUE5enNuOE56In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d312895afferihTV5A9zsn8Nz",
+        "acpxSessionId": "ses_2d312895afferihTV5A9zsn8Nz",
+        "source": "ensure",
+        "lastUpdatedAt": 1774575253493
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774575308068
+    },
+    "status": "done",
+    "startedAt": 1774575247974,
+    "abortedLastRun": false,
+    "endedAt": 1774575308289,
+    "runtimeMs": 60315
+  },
+  "agent:opencode:acp:2c44df7f-43eb-41af-9d0d-88a56083dfd3": {
+    "sessionId": "49755847-063e-41b5-80ab-0c3a99a2b754",
+    "updatedAt": 1774594849904,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "八卦占卜 - 20 分钟冲刺",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/49755847-063e-41b5-80ab-0c3a99a2b754.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjJjNDRkZjdmLTQzZWItNDFhZi05ZDBkLTg4YTU2MDgzZGZkMyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQxZTg4NmIzZmZlMldLTGc4NU9LRHI5ZWUiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkMWU4ODZiM2ZmZTJXS0xnODVPS0RyOWVlIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d1e886b3ffe2WKLg85OKDr9ee",
+        "acpxSessionId": "ses_2d1e886b3ffe2WKLg85OKDr9ee",
+        "source": "ensure",
+        "lastUpdatedAt": 1774594783849
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "error",
+      "lastActivityAt": 1774594849648,
+      "lastError": "Permission denied by ACP runtime (acpx). ACPX blocked a write/exec permission request in a non-interactive session. Configure plugins.entries.acpx.config.permissionMode to one of: approve-reads, approve-all, deny-all."
+    },
+    "status": "failed",
+    "startedAt": 1774594778302,
+    "abortedLastRun": false,
+    "endedAt": 1774594849892,
+    "runtimeMs": 71590
+  },
+  "agent:opencode:acp:254f77b4-c2ed-4f62-8275-316962a1b1cb": {
+    "sessionId": "e09b6664-8eeb-45a1-88e2-1fffeb015800",
+    "updatedAt": 1774596998164,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-vercel-deploy-1518",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/e09b6664-8eeb-45a1-88e2-1fffeb015800.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjI1NGY3N2I0LWMyZWQtNGY2Mi04Mjc1LTMxNjk2MmExYjFjYiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQxZDViOTg3ZmZlVzNOSUZEY0NnRVUzNUMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkMWQ1Yjk4N2ZmZVczTklGRGNDZ0VVMzVDIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d1d5b987ffeW3NIFDcCgEU35C",
+        "acpxSessionId": "ses_2d1d5b987ffeW3NIFDcCgEU35C",
+        "source": "ensure",
+        "lastUpdatedAt": 1774596016096
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774596997590
+    },
+    "status": "done",
+    "startedAt": 1774596009294,
+    "abortedLastRun": false,
+    "endedAt": 1774596997856,
+    "runtimeMs": 988562
+  },
+  "agent:opencode:acp:c4c99093-1741-4b43-97de-1f77fd0a40ed": {
+    "sessionId": "22b1eaaa-3774-4999-96ee-d89e0c6000cb",
+    "updatedAt": 1774599044642,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-sprint-20260327-1600",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/22b1eaaa-3774-4999-96ee-d89e0c6000cb.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmM0Yzk5MDkzLTE3NDEtNGI0My05N2RlLTFmNzdmZDBhNDBlZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQxYWY5ZWZkZmZlRDk3RzZIeGFWdTNRVHciLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkMWFmOWVmZGZmZUQ5N0c2SHhhVnUzUVR3In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d1af9efdffeD97G6HxaVu3QTw",
+        "acpxSessionId": "ses_2d1af9efdffeD97G6HxaVu3QTw",
+        "source": "ensure",
+        "lastUpdatedAt": 1774598513399
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774599043990
+    },
+    "status": "done",
+    "startedAt": 1774598506313,
+    "abortedLastRun": false,
+    "endedAt": 1774599044323,
+    "runtimeMs": 538010
+  },
+  "agent:opencode:acp:3f9fad12-6344-4e5c-a0ae-a2e5ad0cf4c7": {
+    "sessionId": "67c9fe99-0dac-4b66-ab49-90886132c580",
+    "updatedAt": 1774600425522,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "后端启动修复",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/67c9fe99-0dac-4b66-ab49-90886132c580.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjNmOWZhZDEyLTYzNDQtNGU1Yy1hMGFlLWEyZTVhZDBjZjRjNyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQxYTA1NzYwZmZlTElBQXZjSTQ5dEQ3azIiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkMWEwNTc2MGZmZUxJQUF2Y0k0OXREN2syIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d1a05760ffeLIAAvcI49tD7k2",
+        "acpxSessionId": "ses_2d1a05760ffeLIAAvcI49tD7k2",
+        "source": "ensure",
+        "lastUpdatedAt": 1774599514577
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774600424381
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774599509291,
+    "abortedLastRun": false,
+    "endedAt": 1774600424685,
+    "runtimeMs": 915394
+  },
+  "agent:opencode:acp:a7fb9406-e121-433d-9e44-fe4dede56e8e": {
+    "sessionId": "6720f2d6-01a1-49c3-bc9a-586e361f742a",
+    "updatedAt": 1774601282750,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "后端启动修复-qwen-coder",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/6720f2d6-01a1-49c3-bc9a-586e361f742a.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmE3ZmI5NDA2LWUxMjEtNDMzZC05ZTQ0LWZlNGRlZGU1NmU4ZSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQxOWJlZDkzZmZlQkdqdjdqbUE1RFVCS2EiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkMTliZWQ5M2ZmZUJHanY3am1BNURVQkthIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d19bed93ffeBGjv7jmA5DUBKa",
+        "acpxSessionId": "ses_2d19bed93ffeBGjv7jmA5DUBKa",
+        "source": "ensure",
+        "lastUpdatedAt": 1774599804046
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774601282158
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774599798456,
+    "abortedLastRun": false,
+    "endedAt": 1774601282417,
+    "runtimeMs": 1483961
+  },
+  "agent:opencode:acp:24d6040c-a63b-49c2-8d44-2485dd5be3eb": {
+    "sessionId": "2e647837-77b4-4b29-a411-6750a849c765",
+    "updatedAt": 1774600321687,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商项目全面检查修复-qwen-coder",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/2e647837-77b4-4b29-a411-6750a849c765.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjI0ZDYwNDBjLWE2M2ItNDljMi04ZDQ0LTI0ODVkZDViZTNlYiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQxOTgxNjRkZmZlaGltZ29ObTh0WlJkc3EiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkMTk4MTY0ZGZmZWhpbWdvTm04dFpSZHNxIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d198164dffehimgoNm8tZRdsq",
+        "acpxSessionId": "ses_2d198164dffehimgoNm8tZRdsq",
+        "source": "ensure",
+        "lastUpdatedAt": 1774600055520
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774600320120
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774600049368,
+    "abortedLastRun": false,
+    "endedAt": 1774600320759,
+    "runtimeMs": 271391
+  },
+  "agent:opencode:acp:6325644b-bdf5-4de3-b09c-18f426f86fe2": {
+    "sessionId": "141f60fd-cfe6-44f9-8e1d-d33ba4c24748",
+    "updatedAt": 1774606371060,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dev-progress",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/141f60fd-cfe6-44f9-8e1d-d33ba4c24748.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjYzMjU2NDRiLWJkZjUtNGRlMy1iMDljLTE4ZjQyNmY4NmZlMiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmQxNDEwNzJhZmZlVUEwOVFKRHF0VGhqREgiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJkMTQxMDcyYWZmZVVBMDlRSkRxdFRoakRIIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2d141072affeUA09QJDqtThjDH",
+        "acpxSessionId": "ses_2d141072affeUA09QJDqtThjDH",
+        "source": "ensure",
+        "lastUpdatedAt": 1774605761696
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774606370352
+    },
+    "status": "done",
+    "startedAt": 1774605754024,
+    "abortedLastRun": false,
+    "endedAt": 1774606370620,
+    "runtimeMs": 616596
+  },
+  "agent:opencode:acp:a616b46b-78a0-4c2a-9244-89a5c764541d": {
+    "sessionId": "2fd1cc3f-631c-40bd-a93c-f45a4f166d45",
+    "updatedAt": 1774628938988,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "紧急后端修复-qwen-coder-plus",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/2fd1cc3f-631c-40bd-a93c-f45a4f166d45.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmE2MTZiNDZiLTc4YTAtNGMyYS05MjQ0LTg5YTVjNzY0NTQxZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmNmZTkzMGI0ZmZlM1JHWmUwbzQ1dTZFVzIiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjZmU5MzBiNGZmZTNSR1plMG80NXU2RVcyIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2cfe930b4ffe3RGZe0o45u6EW2",
+        "acpxSessionId": "ses_2cfe930b4ffe3RGZe0o45u6EW2",
+        "source": "ensure",
+        "lastUpdatedAt": 1774628294825
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774628938265
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774628289073,
+    "abortedLastRun": false,
+    "endedAt": 1774628938533,
+    "runtimeMs": 649460
+  },
+  "agent:opencode:acp:c151a3a1-4f0c-4412-991c-62dc543daf2f": {
+    "sessionId": "7baf10f4-da52-43b2-be7b-b69d04b5c157",
+    "updatedAt": 1774632369927,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "代码审查与问题修复-qwen-coder-plus",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/7baf10f4-da52-43b2-be7b-b69d04b5c157.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmMxNTFhM2ExLTRmMGMtNDQxMi05OTFjLTYyZGM1NDNkYWYyZiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmNmYmQxNTQxZmZlTWg4SmRzcmMyREFsb1MiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjZmJkMTU0MWZmZU1oOEpkc3JjMkRBbG9TIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2cfbd1541ffeMh8Jdsrc2DAloS",
+        "acpxSessionId": "ses_2cfbd1541ffeMh8Jdsrc2DAloS",
+        "source": "ensure",
+        "lastUpdatedAt": 1774631185598
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774632369182
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774631177843,
+    "abortedLastRun": false,
+    "endedAt": 1774632369538,
+    "runtimeMs": 1191695
+  },
+  "agent:opencode:acp:dd9d79e1-aaac-4c4c-948e-2b72855e4e92": {
+    "sessionId": "e9dc5390-ccff-4de0-8820-5ed27e36568e",
+    "updatedAt": 1774638046167,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "divination-lucky-numbers-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/e9dc5390-ccff-4de0-8820-5ed27e36568e.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmRkOWQ3OWUxLWFhYWMtNGM0Yy05NDhlLTJiNzI4NTVlNGU5MiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yY2Y1OGM2MjhmZmVWY0ZDdmFUWDF4MWVBZiIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmNmNThjNjI4ZmZlVmNGQ3ZhVFgxeDFlQWYifQ",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2cf58c628ffeVcFCvaTX1x1eAf",
+        "acpxSessionId": "ses_2cf58c628ffeVcFCvaTX1x1eAf",
+        "source": "ensure",
+        "lastUpdatedAt": 1774637759325
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "idle",
+      "lastActivityAt": 1774638045531
+    },
+    "status": "done",
+    "startedAt": 1774637753318,
+    "abortedLastRun": false,
+    "endedAt": 1774638045807,
+    "runtimeMs": 292489
+  },
+  "agent:opencode:acp:79de4e91-9706-420d-a91f-7b644ea79383": {
+    "sessionId": "3a8bac1a-55eb-49b9-a47d-786a94296789",
+    "updatedAt": 1774644083510,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "成就徽章系统开发",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/3a8bac1a-55eb-49b9-a47d-786a94296789.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjc5ZGU0ZTkxLTk3MDYtNDIwZC1hOTFmLTdiNjQ0ZWE3OTM4MyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yY2VmZDE5MDFmZmVjRUE2dGJHWkZHMkRETSIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmNlZmQxOTAxZmZlY0VBNnRiR1pGRzJERE0ifQ",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2cefd1901ffecEA6tbGZFG2DDM",
+        "acpxSessionId": "ses_2cefd1901ffecEA6tbGZFG2DDM",
+        "source": "ensure",
+        "lastUpdatedAt": 1774643767432
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "idle",
+      "lastActivityAt": 1774644082774
+    },
+    "status": "done",
+    "startedAt": 1774643761268,
+    "abortedLastRun": false,
+    "endedAt": 1774644083111,
+    "runtimeMs": 321843
+  },
+  "agent:opencode:acp:c6cb68b3-5f3b-434e-bee1-e8ae0ad338d0": {
+    "sessionId": "e35a8793-8824-4a94-b258-4a43c46c6377",
+    "updatedAt": 1774645410356,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/e35a8793-8824-4a94-b258-4a43c46c6377.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmM2Y2I2OGIzLTVmM2ItNDM0ZS1iZWUxLWU4YWUwYWQzMzhkMCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yY2VlNjg0YTlmZmVMOVZXbDJjcXU0MnVKeSIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmNlZTY4NGE5ZmZlTDlWV2wyY3F1NDJ1SnkifQ",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2cee684a9ffeL9VWl2cqu42uJy",
+        "acpxSessionId": "ses_2cee684a9ffeL9VWl2cqu42uJy",
+        "source": "ensure",
+        "lastUpdatedAt": 1774645247222
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "error",
+      "lastActivityAt": 1774645410019,
+      "lastError": "Permission denied by ACP runtime (acpx). ACPX blocked a write/exec permission request in a non-interactive session. Configure plugins.entries.acpx.config.permissionMode to one of: approve-reads, approve-all, deny-all."
+    },
+    "status": "failed",
+    "startedAt": 1774645241422,
+    "abortedLastRun": false,
+    "endedAt": 1774645410348,
+    "runtimeMs": 168926
+  },
+  "agent:opencode:acp:fb1ae9c7-e3af-4885-ba63-43ef63350ce7": {
+    "sessionId": "5e4ad302-d4a9-4d4a-b27c-1c1154c0a4b9",
+    "updatedAt": 1774659645867,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "电商 API 部署修复",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/5e4ad302-d4a9-4d4a-b27c-1c1154c0a4b9.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmZiMWFlOWM3LWUzYWYtNDg4NS1iYTYzLTQzZWY2MzM1MGNlNyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmNlMTA4NjQ1ZmZlbHR0NmpVcEdjaWwwcWUiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjZTEwODY0NWZmZWx0dDZqVXBHY2lsMHFlIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2ce108645ffeltt6jUpGcil0qe",
+        "acpxSessionId": "ses_2ce108645ffeltt6jUpGcil0qe",
+        "source": "ensure",
+        "lastUpdatedAt": 1774659272280
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774659645197
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774659262922,
+    "abortedLastRun": false,
+    "endedAt": 1774659645476,
+    "runtimeMs": 382554
+  },
+  "agent:opencode:acp:a185f785-ca1b-4de2-8339-15411792783a": {
+    "sessionId": "978afa63-8a86-4f77-bda5-ed6856113a7a",
+    "updatedAt": 1774669069803,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "后台管理系统功能补充",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/978afa63-8a86-4f77-bda5-ed6856113a7a.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmExODVmNzg1LWNhMWItNGRlMi04MzM5LTE1NDExNzkyNzgzYSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmNkN2Y1OGI1ZmZlWHBmNlVaWW85SWJGUFkiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjZDdmNThiNWZmZVhwZjZVWllvOUliRlBZIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2cd7f58b5ffeXpf6UZYo9IbFPY",
+        "acpxSessionId": "ses_2cd7f58b5ffeXpf6UZYo9IbFPY",
+        "source": "ensure",
+        "lastUpdatedAt": 1774668786011
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774669069420
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774668780027,
+    "abortedLastRun": false,
+    "endedAt": 1774669069697,
+    "runtimeMs": 289670
+  },
+  "agent:opencode:acp:052d9938-c793-4b3d-9716-d4ef52afe193": {
+    "sessionId": "b34bdb95-5cc6-4e09-9515-e18f68b3741d",
+    "updatedAt": 1774680226108,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "后台管理系统紧急修复",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/b34bdb95-5cc6-4e09-9515-e18f68b3741d.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjA1MmQ5OTM4LWM3OTMtNGIzZC05NzE2LWQ0ZWY1MmFmZTE5MyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmNjZDI4Yzc2ZmZlcEVBMVRKR0RrYnJuNXEiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjY2QyOGM3NmZmZXBFQTFUSkdEa2JybjVxIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2ccd28c76ffepEA1TJGDkbrn5q",
+        "acpxSessionId": "ses_2ccd28c76ffepEA1TJGDkbrn5q",
+        "source": "ensure",
+        "lastUpdatedAt": 1774680110401
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774680225707
+    },
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "channel": "feishu",
+    "status": "done",
+    "startedAt": 1774680104177,
+    "abortedLastRun": false,
+    "endedAt": 1774680225959,
+    "runtimeMs": 121782
+  },
+  "agent:opencode:acp:82e9565d-f2da-4aff-8c72-89c14373675a": {
+    "sessionId": "feac8f41-3aaf-4ef9-8dca-b49bcd6e9495",
+    "updatedAt": 1774740194166,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-share-image-feature",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/feac8f41-3aaf-4ef9-8dca-b49bcd6e9495.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjgyZTk1NjVkLWYyZGEtNGFmZi04YzcyLTg5YzE0MzczNjc1YSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yYzk0MDU1YmRmZmVHV1haamsyajRhcklPUCIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmM5NDA1NWJkZmZlR1dYWmprMmo0YXJJT1AifQ",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c94055bdffeGWXZjk2j4arIOP",
+        "acpxSessionId": "ses_2c94055bdffeGWXZjk2j4arIOP",
+        "source": "ensure",
+        "lastUpdatedAt": 1774740024321
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "idle",
+      "lastActivityAt": 1774740193324
+    },
+    "status": "done",
+    "startedAt": 1774740018191,
+    "abortedLastRun": false,
+    "endedAt": 1774740193696,
+    "runtimeMs": 175505
+  },
+  "agent:opencode:acp:1ba1b7a5-f8e3-4232-8055-da91b47667d0": {
+    "sessionId": "d60d66ad-6aa4-4184-9b19-4ada7d5bd364",
+    "updatedAt": 1774745133633,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-voice-share",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/d60d66ad-6aa4-4184-9b19-4ada7d5bd364.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjFiYTFiN2E1LWY4ZTMtNDIzMi04MDU1LWRhOTFiNDc2NjdkMCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yYzkxYzQ1MjdmZmVYRWdxdHZ0QTBLVHo0QyIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmM5MWM0NTI3ZmZlWEVncXR2dEEwS1R6NEMifQ",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c91c4527ffeXEgqtvtA0KTz4C",
+        "acpxSessionId": "ses_2c91c4527ffeXEgqtvtA0KTz4C",
+        "source": "ensure",
+        "lastUpdatedAt": 1774742387800
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "idle",
+      "lastActivityAt": 1774745133247
+    },
+    "status": "done",
+    "startedAt": 1774742382087,
+    "abortedLastRun": false,
+    "endedAt": 1774745133525,
+    "runtimeMs": 2751438
+  },
+  "agent:opencode:acp:5608e6d3-1980-47cf-8ec2-c39a427f7335": {
+    "sessionId": "1dc9c5c1-ec9b-4aa8-91be-fb10db4b560a",
+    "updatedAt": 1774745095914,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-i18n-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/1dc9c5c1-ec9b-4aa8-91be-fb10db4b560a.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjU2MDhlNmQzLTE5ODAtNDdjZi04ZWMyLWMzOWE0MjdmNzMzNSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yYzhmMmY0NTVmZmVPVnpHa2NHWHg0c3F1aSIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmM4ZjJmNDU1ZmZlT1Z6R2tjR1h4NHNxdWkifQ",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c8f2f455ffeOVzGkcGXx4squi",
+        "acpxSessionId": "ses_2c8f2f455ffeOVzGkcGXx4squi",
+        "source": "ensure",
+        "lastUpdatedAt": 1774745095794
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "running",
+      "lastActivityAt": 1774745095914
+    },
+    "status": "running",
+    "startedAt": 1774745089361,
+    "abortedLastRun": false
+  },
+  "agent:opencode:acp:230a0b0e-484b-491f-aaa3-f729f5a4a8d6": {
+    "sessionId": "4d3f31e8-7495-46a2-ae3b-9d35e1461365",
+    "updatedAt": 1774761384066,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dev-voice-qr",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/4d3f31e8-7495-46a2-ae3b-9d35e1461365.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjIzMGEwYjBlLTQ4NGItNDkxZi1hYWEzLWY3MjlmNWE0YThkNiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmM3ZmU4M2M0ZmZlV21VTlJxbk9INGF4aGoiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjN2ZlODNjNGZmZVdtVU5ScW5PSDRheGhqIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c7fe83c4ffeWmUNRqnOH4axhj",
+        "acpxSessionId": "ses_2c7fe83c4ffeWmUNRqnOH4axhj",
+        "source": "ensure",
+        "lastUpdatedAt": 1774761115127
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774761383683
+    },
+    "status": "done",
+    "startedAt": 1774761109129,
+    "abortedLastRun": false,
+    "endedAt": 1774761383951,
+    "runtimeMs": 274822
+  },
+  "agent:opencode:acp:a900afe8-59e0-4449-b359-e707a88460bc": {
+    "sessionId": "d18cc185-579d-4d4a-b691-4f46cc37838e",
+    "updatedAt": 1774763793552,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-voice-history-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/d18cc185-579d-4d4a-b691-4f46cc37838e.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmE5MDBhZmU4LTU5ZTAtNDQ0OS1iMzU5LWU3MDdhODg0NjBiYyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmM3ZDkzNjk5ZmZlTUJmMDA2MUlHem1uRFciLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjN2Q5MzY5OWZmZU1CZjAwNjFJR3ptbkRXIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c7d93699ffeMBf0061IGzmnDW",
+        "acpxSessionId": "ses_2c7d93699ffeMBf0061IGzmnDW",
+        "source": "ensure",
+        "lastUpdatedAt": 1774763559665
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774763793211
+    },
+    "status": "done",
+    "startedAt": 1774763554377,
+    "abortedLastRun": false,
+    "endedAt": 1774763793446,
+    "runtimeMs": 239069
+  },
+  "agent:opencode:acp:17c73528-5586-4745-8d60-9285ee568766": {
+    "sessionId": "d33ad9a9-677c-4d5f-9e66-98fac884eff7",
+    "updatedAt": 1774785491596,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-compare-feature",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/d33ad9a9-677c-4d5f-9e66-98fac884eff7.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjE3YzczNTI4LTU1ODYtNDc0NS04ZDYwLTkyODVlZTU2ODc2NiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmM2OGZmNGViZmZleDZQYXJJcHE4eWJ2MG8iLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjNjhmZjRlYmZmZXg2UGFySXBxOHlidjBvIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c68ff4ebffex6ParIpq8ybv0o",
+        "acpxSessionId": "ses_2c68ff4ebffex6ParIpq8ybv0o",
+        "source": "ensure",
+        "lastUpdatedAt": 1774785137832
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774785491207
+    },
+    "status": "done",
+    "startedAt": 1774785132189,
+    "abortedLastRun": false,
+    "endedAt": 1774785491487,
+    "runtimeMs": 359298
+  },
+  "agent:opencode:acp:856fa70e-63c7-4fce-91b0-482b35c73a4d": {
+    "sessionId": "1ec493be-68fa-4674-929f-c602af6b06c9",
+    "updatedAt": 1774793045784,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-sprint-2155",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/1ec493be-68fa-4674-929f-c602af6b06c9.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjg1NmZhNzBlLTYzYzctNGZjZS05MWIwLTQ4MmIzNWM3M2E0ZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmM2MWVjZWM4ZmZlNHpka0NFc0JNYVBxSXMiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjNjFlY2VjOGZmZTR6ZGtDRXNCTWFQcUlzIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c61ecec8ffe4zdkCEsBMaPqIs",
+        "acpxSessionId": "ses_2c61ecec8ffe4zdkCEsBMaPqIs",
+        "source": "ensure",
+        "lastUpdatedAt": 1774792553206
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774793045434
+    },
+    "status": "done",
+    "startedAt": 1774792547434,
+    "abortedLastRun": false,
+    "endedAt": 1774793045661,
+    "runtimeMs": 498227
+  },
+  "agent:opencode:acp:71722b11-a2fb-4aed-98d0-c925bf7b0151": {
+    "sessionId": "7e00ddb0-c0d2-43a8-ba1a-451b30a33de3",
+    "updatedAt": 1774814162679,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dev-continue",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/7e00ddb0-c0d2-43a8-ba1a-451b30a33de3.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjcxNzIyYjExLWEyZmItNGFlZC05OGQwLWM5MjViZjdiMDE1MSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmM0ZDUxMzVhZmZlVVppd1AzdGJKTnZzNlAiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjNGQ1MTM1YWZmZVVaaXdQM3RiSk52czZQIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c4d5135affeUZiwP3tbJNvs6P",
+        "acpxSessionId": "ses_2c4d5135affeUZiwP3tbJNvs6P",
+        "source": "ensure",
+        "lastUpdatedAt": 1774814162663
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "running",
+      "lastActivityAt": 1774814162679
+    },
+    "status": "running",
+    "startedAt": 1774814154956,
+    "abortedLastRun": false
+  },
+  "agent:opencode:acp:f0d65a9f-142f-4d2e-a40e-bf8f0c95afe2": {
+    "sessionId": "f5d1f164-7aeb-484c-a0f1-fb6c3268563e",
+    "updatedAt": 1774834109509,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "divination-dev-sprint",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/f5d1f164-7aeb-484c-a0f1-fb6c3268563e.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmYwZDY1YTlmLTE0MmYtNGQyZS1hNDBlLWJmOGYwYzk1YWZlMiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMzYTRiNThlZmZla3NQNXNocHI1V1kwbW4iLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjM2E0YjU4ZWZmZWtzUDVzaHByNVdZMG1uIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c3a4b58effeksP5shpr5WY0mn",
+        "acpxSessionId": "ses_2c3a4b58effeksP5shpr5WY0mn",
+        "source": "ensure",
+        "lastUpdatedAt": 1774834109498
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "running",
+      "lastActivityAt": 1774834109509
+    },
+    "status": "running",
+    "startedAt": 1774834103330,
+    "abortedLastRun": false
+  },
+  "agent:opencode:acp:8c749531-747f-488f-ae8c-6dad8a02f4b8": {
+    "sessionId": "96bf4bc6-d778-4bdf-bc20-18277dbcbfe5",
+    "updatedAt": 1774839409370,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-deploy-v1013",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/96bf4bc6-d778-4bdf-bc20-18277dbcbfe5.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjhjNzQ5NTMxLTc0N2YtNDg4Zi1hZThjLTZkYWQ4YTAyZjRiOCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMzNTVmMjY1ZmZldmJYdTA2YTF1ZlhVUXgiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjMzU1ZjI2NWZmZXZiWHUwNmExdWZYVVF4In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c355f265ffevbXu06a1ufXUQx",
+        "acpxSessionId": "ses_2c355f265ffevbXu06a1ufXUQx",
+        "source": "ensure",
+        "lastUpdatedAt": 1774839271284
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774839408897
+    },
+    "status": "done",
+    "startedAt": 1774839265139,
+    "abortedLastRun": false,
+    "endedAt": 1774839409153,
+    "runtimeMs": 144014
+  },
+  "agent:opencode:acp:8d62b8fb-f51f-4fc5-a1fc-2003f6e86231": {
+    "sessionId": "faae3f45-d311-4acf-8e69-554e44669cdf",
+    "updatedAt": 1774860249266,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "divination-v1.0.14-sprint",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/faae3f45-d311-4acf-8e69-554e44669cdf.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjhkNjJiOGZiLWY1MWYtNGZjNS1hMWZjLTIwMDNmNmU4NjIzMSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMyMWUxOWJiZmZlcVhGa1B6eTRmZmRqaDAiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjMjFlMTliYmZmZXFYRmtQenk0ZmZkamgwIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c21e19bbffeqXFkPzy4ffdjh0",
+        "acpxSessionId": "ses_2c21e19bbffeqXFkPzy4ffdjh0",
+        "source": "ensure",
+        "lastUpdatedAt": 1774859708528
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774860248852
+    },
+    "status": "done",
+    "startedAt": 1774859701216,
+    "abortedLastRun": false,
+    "endedAt": 1774860249160,
+    "runtimeMs": 547944
+  },
+  "agent:opencode:acp:639fdf82-1220-4d4f-b4f2-e9fef7f9d980": {
+    "sessionId": "13a5555a-9e6b-4aed-81b4-ed7954edf7b4",
+    "updatedAt": 1774863827984,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "HexagramGraph 模块完成",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/13a5555a-9e6b-4aed-81b4-ed7954edf7b4.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjYzOWZkZjgyLTEyMjAtNGQ0Zi1iNGYyLWU5ZmVmN2Y5ZDk4MCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMxZTZjNDEyZmZlQ3ljcTdPSEk0NXRGSGgiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjMWU2YzQxMmZmZUN5Y3E3T0hJNDV0RkhoIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c1e6c412ffeCycq7OHI45tFHh",
+        "acpxSessionId": "ses_2c1e6c412ffeCycq7OHI45tFHh",
+        "source": "ensure",
+        "lastUpdatedAt": 1774863334817
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774863827594
+    },
+    "status": "done",
+    "startedAt": 1774863327671,
+    "abortedLastRun": false,
+    "endedAt": 1774863827872,
+    "runtimeMs": 500201
+  },
+  "agent:opencode:acp:45824f13-71e6-4cc0-8b02-e2082468e1b0": {
+    "sessionId": "95fceb93-3071-47f5-a43e-28b5fddc22e0",
+    "updatedAt": 1774873694026,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "divination-v1.0.16-deploy",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/95fceb93-3071-47f5-a43e-28b5fddc22e0.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjQ1ODI0ZjEzLTcxZTYtNGNjMC04YjAyLWUyMDgyNDY4ZTFiMCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMxNTBlYTAzZmZlbGQwNm1RS1hZakh0NWUiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjMTUwZWEwM2ZmZWxkMDZtUUtYWWpIdDVlIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c150ea03ffeld06mQKXYjHt5e",
+        "acpxSessionId": "ses_2c150ea03ffeld06mQKXYjHt5e",
+        "source": "ensure",
+        "lastUpdatedAt": 1774873155651
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774873693423
+    },
+    "status": "done",
+    "startedAt": 1774873148775,
+    "abortedLastRun": false,
+    "endedAt": 1774873693766,
+    "runtimeMs": 544991
+  },
+  "agent:opencode:acp:8dd0809e-c282-4b83-a764-418a1c208f3f": {
+    "sessionId": "312e6f10-7f99-46e2-b12d-dd0c0261756d",
+    "updatedAt": 1774880736963,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "八字合婚模块开发",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/312e6f10-7f99-46e2-b12d-dd0c0261756d.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjhkZDA4MDllLWMyODItNGI4My1hNzY0LTQxOGExYzIwOGYzZiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMwZjk1NDYxZmZlcFIxUFdBRXRDZ2swU28iLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjMGY5NTQ2MWZmZXBSMVBXQUV0Q2drMFNvIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c0f95461ffepR1PWAEtCgk0So",
+        "acpxSessionId": "ses_2c0f95461ffepR1PWAEtCgk0So",
+        "source": "ensure",
+        "lastUpdatedAt": 1774878895495
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774880736461
+    },
+    "status": "done",
+    "startedAt": 1774878888934,
+    "abortedLastRun": false,
+    "endedAt": 1774880736844,
+    "runtimeMs": 1847910
+  },
+  "agent:opencode:acp:09924148-59eb-4e28-a63b-faed6801e927": {
+    "sessionId": "976e28e1-97b1-4e82-b299-2e3196595cb9",
+    "updatedAt": 1774881696963,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-dev-20min-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/976e28e1-97b1-4e82-b299-2e3196595cb9.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjA5OTI0MTQ4LTU5ZWItNGUyOC1hNjNiLWZhZWQ2ODAxZTkyNyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMwZDJmYWQwZmZlZDY0ZHd4YVFmN0pNZmsiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjMGQyZmFkMGZmZWQ2NGR3eGFRZjdKTWZrIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c0d2fad0ffed64dwxaQf7JMfk",
+        "acpxSessionId": "ses_2c0d2fad0ffed64dwxaQf7JMfk",
+        "source": "ensure",
+        "lastUpdatedAt": 1774881408827
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774881696632
+    },
+    "status": "done",
+    "startedAt": 1774881402077,
+    "abortedLastRun": false,
+    "endedAt": 1774881696859,
+    "runtimeMs": 294782
+  },
+  "agent:opencode:acp:a8027850-7555-4eca-8ba9-508be7ee2442": {
+    "sessionId": "d1c48d47-e623-4e46-a6bd-1ef8235167b9",
+    "updatedAt": 1774888349913,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-daily-v1.0.18",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/d1c48d47-e623-4e46-a6bd-1ef8235167b9.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmE4MDI3ODUwLTc1NTUtNGVjYS04YmE5LTUwOGJlN2VlMjQ0MiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMwNzVjMTg4ZmZlZDYybnJRSWdlejBGMEEiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjMDc1YzE4OGZmZWQ2Mm5yUUlnZXowRjBBIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c075c188ffed62nrQIgez0F0A",
+        "acpxSessionId": "ses_2c075c188ffed62nrQIgez0F0A",
+        "source": "ensure",
+        "lastUpdatedAt": 1774887518437
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774888348708
+    },
+    "status": "done",
+    "startedAt": 1774887511303,
+    "abortedLastRun": false,
+    "endedAt": 1774888349057,
+    "runtimeMs": 837754
+  },
+  "agent:opencode:acp:7b6ae650-8602-4e21-b88b-b398eacc7a45": {
+    "sessionId": "46e1e9bb-746d-41ec-9d8c-5eb845627b71",
+    "updatedAt": 1774890282191,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/46e1e9bb-746d-41ec-9d8c-5eb845627b71.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjdiNmFlNjUwLTg2MDItNGUyMS1iODhiLWIzOThlYWNjN2E0NSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMwNjIzOWMyZmZlSlJtajJYZWVOUmhOdlciLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjMDYyMzljMmZmZUpSbWoyWGVlTlJoTnZXIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c06239c2ffeJRmj2XeeNRhNvW",
+        "acpxSessionId": "ses_2c06239c2ffeJRmj2XeeNRhNvW",
+        "source": "ensure",
+        "lastUpdatedAt": 1774888798513
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774890281590
+    },
+    "status": "done",
+    "startedAt": 1774888791840,
+    "abortedLastRun": false,
+    "endedAt": 1774890281937,
+    "runtimeMs": 1490097
+  },
+  "agent:opencode:acp:39976156-c446-4610-80ee-78b781133521": {
+    "sessionId": "60260e2e-4514-4aae-982a-c8f9ac4f288e",
+    "updatedAt": 1774892912463,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-v1.0.19-development",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/60260e2e-4514-4aae-982a-c8f9ac4f288e.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjM5OTc2MTU2LWM0NDYtNDYxMC04MGVlLTc4Yjc4MTEzMzUyMSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmMwMzA4M2U4ZmZlSktHbllEOEdCYnV1eVIiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJjMDMwODNlOGZmZUpLR25ZRDhHQmJ1dXlSIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2c03083e8ffeJKGnYD8GBbuuyR",
+        "acpxSessionId": "ses_2c03083e8ffeJKGnYD8GBbuuyR",
+        "source": "ensure",
+        "lastUpdatedAt": 1774892056100
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1774892911964
+    },
+    "status": "done",
+    "startedAt": 1774892049429,
+    "abortedLastRun": false,
+    "endedAt": 1774892912268,
+    "runtimeMs": 862839
+  },
+  "agent:opencode:acp:32694f9d-1f04-4184-ac9c-bc941fc772ca": {
+    "sessionId": "2175ad74-5faf-4aeb-91b3-637ddf8111be",
+    "updatedAt": 1775112008816,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-v1.0.36-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/2175ad74-5faf-4aeb-91b3-637ddf8111be.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjMyNjk0ZjlkLTFmMDQtNDE4NC1hYzljLWJjOTQxZmM3NzJjYSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmIzMjAzYmVhZmZlbGdqUkM1VGdFWnd1ZjAiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJiMzIwM2JlYWZmZWxnalJDNVRnRVp3dWYwIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2b3203beaffelgjRC5TgEZwuf0",
+        "acpxSessionId": "ses_2b3203beaffelgjRC5TgEZwuf0",
+        "source": "ensure",
+        "lastUpdatedAt": 1775111229285
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1775112007934
+    },
+    "status": "done",
+    "startedAt": 1775111228247,
+    "abortedLastRun": false,
+    "endedAt": 1775112008189,
+    "runtimeMs": 779942
+  },
+  "agent:opencode:acp:e4d7bbe6-36e2-4e86-9a99-a83c1872f539": {
+    "sessionId": "bd00c9bd-d5b2-4bd6-a2ae-2f0d2e0ae7cb",
+    "updatedAt": 1775116270436,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "八卦占卜 - 语音分享功能开发",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/bd00c9bd-d5b2-4bd6-a2ae-2f0d2e0ae7cb.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmU0ZDdiYmU2LTM2ZTItNGU4Ni05YTk5LWE4M2MxODcyZjUzOSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmIyZDVhNGJiZmZlZVhyYlFTVjAzVGROZmsiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJiMmQ1YTRiYmZmZWVYcmJRU1YwM1RkTmZrIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2b2d5a4bbffeeXrbQSV03TdNfk",
+        "acpxSessionId": "ses_2b2d5a4bbffeeXrbQSV03TdNfk",
+        "source": "ensure",
+        "lastUpdatedAt": 1775116117976
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "error",
+      "lastActivityAt": 1775116224782,
+      "lastError": "Permission denied by ACP runtime (acpx). ACPX blocked a write/exec permission request in a non-interactive session. Configure plugins.entries.acpx.config.permissionMode to one of: approve-reads, approve-all, deny-all."
+    },
+    "status": "failed",
+    "startedAt": 1775116115868,
+    "abortedLastRun": false,
+    "endedAt": 1775116225119,
+    "runtimeMs": 108532
+  },
+  "agent:opencode:acp:8da408da-a4e8-48e7-804c-f419412f8f35": {
+    "sessionId": "aef0f870-0764-4c3f-91a5-f617b3e18a55",
+    "updatedAt": 1775120983449,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "Divination v1.0.32 开发",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/aef0f870-0764-4c3f-91a5-f617b3e18a55.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjhkYTQwOGRhLWE0ZTgtNDhlNy04MDRjLWY0MTk0MTJmOGYzNSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmIyOWNmMjA5ZmZlQWR0ckxUQ09RUWpjN3MiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJiMjljZjIwOWZmZUFkdHJMVENPUVFqYzdzIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2b29cf209ffeAdtrLTCOQQjc7s",
+        "acpxSessionId": "ses_2b29cf209ffeAdtrLTCOQQjc7s",
+        "source": "ensure",
+        "lastUpdatedAt": 1775119833395
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1775120931581
+    },
+    "status": "done",
+    "startedAt": 1775119831536,
+    "abortedLastRun": false,
+    "endedAt": 1775120932221,
+    "runtimeMs": 1099958
+  },
+  "agent:opencode:acp:1ca243da-ebe6-4c1e-bd19-05a84c4a945b": {
+    "sessionId": "cb6e0baa-13d1-4068-9f2f-23c263b5e803",
+    "updatedAt": 1775147105784,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-v1.0.37-community-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/cb6e0baa-13d1-4068-9f2f-23c263b5e803.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjFjYTI0M2RhLWViZTYtNGMxZS1iZDE5LTA1YTg0YzRhOTQ1YiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yYjExNTAzYzBmZmVVeWdJQjJxSExWeWZxMiIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmIxMTUwM2MwZmZlVXlnSUIycUhMVnlmcTIifQ",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2b11503c0ffeUygIB2qHLVyfq2",
+        "acpxSessionId": "ses_2b11503c0ffeUygIB2qHLVyfq2",
+        "source": "ensure",
+        "lastUpdatedAt": 1775145519443
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "idle",
+      "lastActivityAt": 1775147087360
+    },
+    "status": "done",
+    "startedAt": 1775145517284,
+    "abortedLastRun": false,
+    "endedAt": 1775147087744,
+    "runtimeMs": 1569572
+  },
+  "agent:opencode:acp:cbd9bfbb-b3ee-42e4-8471-33596f842d7d": {
+    "sessionId": "0d275b3a-58f4-4689-a3f3-0d6654aeef80",
+    "updatedAt": 1775148018430,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination: 社区功能模块集成 v1.0.37",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/0d275b3a-58f4-4689-a3f3-0d6654aeef80.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmNiZDliZmJiLWIzZWUtNDJlNC04NDcxLTMzNTk2Zjg0MmQ3ZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmIxMDM5OWMxZmZlV3lGdTNyNVRiWFJQNzUiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJiMTAzOTljMWZmZVd5RnUzcjVUYlhSUDc1In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2b10399c1ffeWyFu3r5TbXRP75",
+        "acpxSessionId": "ses_2b10399c1ffeWyFu3r5TbXRP75",
+        "source": "ensure",
+        "lastUpdatedAt": 1775146660984
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1775148017089
+    },
+    "status": "done",
+    "startedAt": 1775146658840,
+    "abortedLastRun": false,
+    "endedAt": 1775148017419,
+    "runtimeMs": 1357714
+  },
+  "agent:opencode:acp:0403d8f3-2bb2-4a90-9908-26f4898be336": {
+    "sessionId": "8df44ec7-c666-4a0e-a480-8a51d6f398b7",
+    "updatedAt": 1775158237879,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-history-analysis-v1.0.38",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/8df44ec7-c666-4a0e-a480-8a51d6f398b7.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjA0MDNkOGYzLTJiYjItNGE5MC05OTA4LTI2ZjQ4OThiZTMzNiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmIwNmFiZDg2ZmZlRkg4emRVQlJxNkt6Qm8iLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJiMDZhYmQ4NmZmZUZIOHpkVUJScTZLekJvIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2b06abd86ffeFH8zdUBRq6KzBo",
+        "acpxSessionId": "ses_2b06abd86ffeFH8zdUBRq6KzBo",
+        "source": "ensure",
+        "lastUpdatedAt": 1775156678456
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1775158236205
+    },
+    "status": "done",
+    "startedAt": 1775156676332,
+    "abortedLastRun": false,
+    "endedAt": 1775158236642,
+    "runtimeMs": 1559424
+  },
+  "agent:opencode:acp:6e4fce91-3fe1-45da-8c08-09db178ad812": {
+    "sessionId": "e0c03df0-5514-45bd-8743-36c11eb704a9",
+    "updatedAt": 1775181914641,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "AISocial-修复 -5 问题",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/e0c03df0-5514-45bd-8743-36c11eb704a9.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjZlNGZjZTkxLTNmZTEtNDVkYS04YzA4LTA5ZGIxNzhhZDgxMiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmFlZjRmNDEyZmZlQVllSVluMFJOVnhpdTEiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJhZWY0ZjQxMmZmZUFZZUlZbjBSTlZ4aXUxIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2aef4f412ffeAYeIYn0RNVxiu1",
+        "acpxSessionId": "ses_2aef4f412ffeAYeIYn0RNVxiu1",
+        "source": "ensure",
+        "lastUpdatedAt": 1775181175045
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1775181895942
+    },
+    "status": "done",
+    "startedAt": 1775181172926,
+    "abortedLastRun": false,
+    "endedAt": 1775181896284,
+    "runtimeMs": 722450
+  },
+  "agent:opencode:acp:3c8ea998-45d7-4dcd-9301-cd1a7d3e04bd": {
+    "sessionId": "53412238-42a7-40de-86d9-202157bf7411",
+    "updatedAt": 1775182912433,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-learning-test-complete",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/53412238-42a7-40de-86d9-202157bf7411.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjNjOGVhOTk4LTQ1ZDctNGRjZC05MzAxLWNkMWE3ZDNlMDRiZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmFlZTY3ZTlhZmZlVnV3VlpUREZSN0huMTciLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJhZWU2N2U5YWZmZVZ1d1ZaVERGUjdIbjE3In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2aee67e9affeVuwVZTDFR7Hn17",
+        "acpxSessionId": "ses_2aee67e9affeVuwVZTDFR7Hn17",
+        "source": "ensure",
+        "lastUpdatedAt": 1775182123341
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1775182824611
+    },
+    "status": "done",
+    "startedAt": 1775182120319,
+    "abortedLastRun": false,
+    "endedAt": 1775182824901,
+    "runtimeMs": 703701
+  },
+  "agent:opencode:acp:21d2460d-c211-4a45-884e-83410e0a9641": {
+    "sessionId": "6eb415b5-f21b-48d0-8f63-3120ec02974a",
+    "updatedAt": 1775470673608,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "AISocial-Nexus-平台优化 -TASK-20260403-004",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/6eb415b5-f21b-48d0-8f63-3120ec02974a.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjIxZDI0NjBkLWMyMTEtNGE0NS04ODRlLTgzNDEwZTBhOTY0MSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmFlYTBiZGVmZmZlY0Z6azVEcTdMMU82Q2EiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJhZWEwYmRlZmZmZWNGems1RHE3TDFPNkNhIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2aea0bdefffecFzk5Dq7L1O6Ca",
+        "acpxSessionId": "ses_2aea0bdefffecFzk5Dq7L1O6Ca",
+        "source": "ensure",
+        "lastUpdatedAt": 1775186694562
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "running",
+      "lastActivityAt": 1775186694574
+    },
+    "status": "failed",
+    "startedAt": 1775186691831,
+    "abortedLastRun": false,
+    "endedAt": 1775470640939,
+    "runtimeMs": 283947854
+  },
+  "agent:opencode:acp:dafbf8cb-0a73-44c2-a21c-97f386152ff5": {
+    "sessionId": "7c8249b1-4612-4e62-ad43-9395f40b22e6",
+    "updatedAt": 1775470673926,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "divination-test-fix-module",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/7c8249b1-4612-4e62-ad43-9395f40b22e6.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmRhZmJmOGNiLTBhNzMtNDRjMi1hMjFjLTk3ZjM4NjE1MmZmNSIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmFlOWE4Y2NkZmZlSXZrYWJrdkdWMmpDN0MiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJhZTlhOGNjZGZmZUl2a2Fia3ZHVjJqQzdDIn0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2ae9a8ccdffeIvkabkvGV2jC7C",
+        "acpxSessionId": "ses_2ae9a8ccdffeIvkabkvGV2jC7C",
+        "source": "ensure",
+        "lastUpdatedAt": 1775187101764
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "running",
+      "lastActivityAt": 1775187101777
+    },
+    "status": "failed",
+    "startedAt": 1775187097733,
+    "abortedLastRun": false,
+    "endedAt": 1775470640943,
+    "runtimeMs": 283540719
+  },
+  "agent:opencode:acp:7490ba18-1d46-472c-a4d7-431477cb464c": {
+    "sessionId": "0712a8bb-d794-4ff1-a178-0571fcd775e6",
+    "updatedAt": 1775470674109,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "AISocial-Nexus-平台优化 -TASK-20260403-004-R1",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/0712a8bb-d794-4ff1-a178-0571fcd775e6.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjc0OTBiYTE4LTFkNDYtNDcyYy1hNGQ3LTQzMTQ3N2NiNDY0YyIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmFlOGQyMWJiZmZleDVDNnJQZHFHMXY1RjUiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJhZThkMjFiYmZmZXg1QzZyUGRxRzF2NUY1In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2ae8d21bbffex5C6rPdqG1v5F5",
+        "acpxSessionId": "ses_2ae8d21bbffex5C6rPdqG1v5F5",
+        "source": "ensure",
+        "lastUpdatedAt": 1775187979548
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "running",
+      "lastActivityAt": 1775187979560
+    },
+    "status": "failed",
+    "startedAt": 1775187977050,
+    "abortedLastRun": false,
+    "endedAt": 1775470640948,
+    "runtimeMs": 282662773
+  },
+  "agent:opencode:acp:92fb1e0a-afd5-42c1-a605-1eed2ce23834": {
+    "sessionId": "4e5ba165-5c81-4771-a5b7-8d51e6b65566",
+    "updatedAt": 1775189876267,
+    "spawnedBy": "agent:main:cron:a784d97a-a087-4e94-a203-e85d91cb44b6",
+    "label": "Divination PWA Enhancement v1.0.40",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/4e5ba165-5c81-4771-a5b7-8d51e6b65566.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOjkyZmIxZTBhLWFmZDUtNDJjMS1hNjA1LTFlZWQyY2UyMzgzNCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmFlNzU3NDFjZmZlYXpLWmRFTjVUcWU0cngiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJhZTc1NzQxY2ZmZWF6S1pkRU41VHFlNHJ4In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2ae75741cffeazKZdEN5Tqe4rx",
+        "acpxSessionId": "ses_2ae75741cffeazKZdEN5Tqe4rx",
+        "source": "ensure",
+        "lastUpdatedAt": 1775189531497
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace"
+      },
+      "cwd": "/root/.openclaw/workspace",
+      "state": "idle",
+      "lastActivityAt": 1775189858954
+    },
+    "status": "done",
+    "startedAt": 1775189528870,
+    "abortedLastRun": false,
+    "endedAt": 1775189859215,
+    "runtimeMs": 329041
+  },
+  "agent:opencode:acp:a2c4e707-5370-4fe5-9be5-174de45c1c6b": {
+    "sessionId": "c8b94cac-5217-445f-ae04-f38b9f7fa31f",
+    "updatedAt": 1775470674133,
+    "spawnedBy": "agent:main:cron:e65ba14e-5972-4db6-8979-c45ea36786ed",
+    "label": "divination-v1.0.41-recommendation",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/c8b94cac-5217-445f-ae04-f38b9f7fa31f.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmEyYzRlNzA3LTUzNzAtNGZlNS05YmU1LTE3NGRlNDVjMWM2YiIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL3Byb2plY3RzL2RpdmluYXRpb24iLCJtb2RlIjoib25lc2hvdCIsImFjcHhSZWNvcmRJZCI6InNlc18yYWU1MTEzOGVmZmVRbmJlQXlRWk5QdDBTTCIsImJhY2tlbmRTZXNzaW9uSWQiOiJzZXNfMmFlNTExMzhlZmZlUW5iZUF5UVpOUHQwU0wifQ",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2ae51138effeQnbeAyQZNPt0SL",
+        "acpxSessionId": "ses_2ae51138effeQnbeAyQZNPt0SL",
+        "source": "ensure",
+        "lastUpdatedAt": 1775191913584
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/projects/divination"
+      },
+      "cwd": "/root/.openclaw/workspace/projects/divination",
+      "state": "running",
+      "lastActivityAt": 1775191913595
+    },
+    "status": "failed",
+    "startedAt": 1775191912801,
+    "abortedLastRun": false,
+    "endedAt": 1775470640952,
+    "runtimeMs": 278728044
+  },
+  "agent:opencode:acp:be4c99a8-ea38-4145-906c-e87c8a09c5bd": {
+    "sessionId": "b419e4d0-8523-43ef-becc-3c8d1838aa8d",
+    "updatedAt": 1775199255402,
+    "spawnedBy": "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8",
+    "label": "AISocial Nexus - 四大优化任务",
+    "sessionFile": "/root/.openclaw/agents/opencode/sessions/b419e4d0-8523-43ef-becc-3c8d1838aa8d.jsonl",
+    "acp": {
+      "backend": "acpx",
+      "agent": "opencode",
+      "runtimeSessionName": "acpx:v1:eyJuYW1lIjoiYWdlbnQ6b3BlbmNvZGU6YWNwOmJlNGM5OWE4LWVhMzgtNDE0NS05MDZjLWU4N2M4YTA5YzViZCIsImFnZW50Ijoib3BlbmNvZGUiLCJjd2QiOiIvcm9vdC8ub3BlbmNsYXcvd29ya3NwYWNlL2Fpc29jaWFsLW5leHVzIiwibW9kZSI6Im9uZXNob3QiLCJhY3B4UmVjb3JkSWQiOiJzZXNfMmFkZThhZTM1ZmZlN0twSFI4d2pTUTJISnkiLCJiYWNrZW5kU2Vzc2lvbklkIjoic2VzXzJhZGU4YWUzNWZmZTdLcEhSOHdqU1EySEp5In0",
+      "identity": {
+        "state": "resolved",
+        "acpxRecordId": "ses_2ade8ae35ffe7KpHR8wjSQ2HJy",
+        "acpxSessionId": "ses_2ade8ae35ffe7KpHR8wjSQ2HJy",
+        "source": "ensure",
+        "lastUpdatedAt": 1775198755686
+      },
+      "mode": "oneshot",
+      "runtimeOptions": {
+        "cwd": "/root/.openclaw/workspace/aisocial-nexus"
+      },
+      "cwd": "/root/.openclaw/workspace/aisocial-nexus",
+      "state": "idle",
+      "lastActivityAt": 1775199228058
+    },
+    "status": "done",
+    "startedAt": 1775198754646,
+    "abortedLastRun": false,
+    "endedAt": 1775199228398,
+    "runtimeMs": 473406
+  }
+}

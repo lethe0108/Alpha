@@ -1,0 +1,119 @@
+# go-cqhttp 配置文件
+# 文档：https://docs.go-cqhttp.org/
+
+# 机器人账号配置
+account:
+  # QQ 账号
+  uin: 277402850
+  # 密码为空时使用扫码登录（推荐）
+  password: ''
+  # 加密密钥（可选）
+  encrypt-key: ''
+  # 是否启用加密
+  encrypt: false
+  # 设备协议
+  protocol: 0
+  # 0: iPad
+  # 1: Android Phone
+  # 2: Android Watch
+  # 3: MacOS
+  # 4: 企点
+
+# 服务器配置
+servers:
+  # WebSocket 反向连接配置
+  - ws-reverse:
+      # 通用 WebSocket 地址（用于消息和命令）
+      universal: ws://localhost:8080/ws
+      # 重连间隔（毫秒）
+      reconnect-interval: 5000
+      # 连接超时（毫秒）
+      connect-timeout: 5000
+      # 心跳间隔（毫秒）
+      heartbeat-interval: 5000
+      # 最大重试次数（0 为无限）
+      max-retries: 0
+
+  # HTTP 正向监听（可选）
+  # - http:
+  #     host: 127.0.0.1
+  #     port: 5700
+  #     timeout: 5
+  #     post:
+  #       - http://localhost:8081/
+
+# 心跳配置
+heartbeat:
+  # 是否启用心跳
+  enabled: true
+  # 心跳间隔（毫秒）
+  interval: 5000
+
+# 日志配置
+log:
+  # 日志级别：debug, info, warn, error
+  level: info
+  # 是否输出到文件
+  file-logging: true
+  # 日志目录
+  log-dir: logs
+  # 是否输出到控制台
+  console: true
+
+# 数据库配置
+database:
+  # 数据库类型：sqlite3, mysql, postgres
+  type: sqlite3
+  # SQLite 配置
+  sqlite3:
+    # 数据库文件
+    db-file: data/level.db
+  # MySQL 配置（如使用 MySQL）
+  # mysql:
+  #   host: localhost
+  #   port: 3306
+  #   user: root
+  #   password: ''
+  #   database: cqhttp
+
+# 媒体缓存配置
+cache:
+  # 图片缓存
+  image: true
+  # 视频缓存
+  video: true
+  # 语音缓存
+  voice: true
+
+# 消息分片配置
+message:
+  # 消息分片大小
+  post-format: string
+  # 是否强制分片
+  force-fragment: false
+  # 是否修复 URL
+  fix-url: true
+  # 是否上报自消息
+  report-self-message: false
+  # 是否移除 ATM 前缀
+  remove-at-prefix: true
+
+# 账户安全配置
+account:
+  # 是否自动重连
+  auto-reconnect: true
+  # 重连延迟（毫秒）
+  reconnect-delay: 5000
+  # 是否使用代理
+  use-proxy: false
+  # 代理配置
+  # proxy: socks5://127.0.0.1:1080
+
+# 速率限制配置
+rate-limit:
+  # 是否启用速率限制
+  enabled: true
+  # 频率限制（次/分钟）
+  frequency: 60
+  # 是否对管理员豁免
+  admin-override: true

@@ -1,0 +1,29 @@
+# 🤖 Long-Running Agents - 长周期 Agent 开发框架
+
+> **全局生效**: 所有开发类项目自动使用  
+> **来源**: Anthropic Engineering  
+> **创建时间**: 2026-03-17  
+> **状态**: ✅ 全局激活
+
+## 核心模式
+
+### Initializer Agent (初始化)
+- 创建功能列表
+- 创建进度文件
+- 创建启动脚本
+- 初始化 Git
+
+### Coding Agent (开发)
+- 每次实现一个功能
+- 端到端测试验证
+- 提交并记录进度
+
+## 核心文件
+
+- `claude-features.json` - 功能列表
+- `claude-progress.txt` - 进度追踪
+- `init.sh` - 启动脚本
+
+## 文档
+
+详细文档：[SKILL.md](SKILL.md)
