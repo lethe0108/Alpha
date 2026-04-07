@@ -1,9 +1,9 @@
 # Alpha 备份清单
 
-**备份时间**: 2026-03-31 05:10:03
+**备份时间**: 2026-04-08 05:00:23
 **备份范围**: /root/.openclaw
-**文件总数**: 413
-**变更**: +38351 / -14167
+**文件总数**: 35
+**变更**: +7217 / -1892
 
 ## 目录结构
 
@@ -38,6 +38,9 @@
 ./delivery-queue/failed
 ./devices
 ./extensions
+./extensions/mattermost
+./extensions/mattermost/src
+./extensions/mattermost/src/mattermost
 ./extensions/openclaw-lark
 ./extensions/openclaw-lark/bin
 ./extensions/openclaw-lark/node_modules
@@ -57,20 +60,17 @@
 ./extensions/openclaw-lark/src/card
 ./extensions/openclaw-lark/src/channel
 ./extensions/openclaw-lark/src/commands
+./extensions/openclaw-lark/src/config
 ./extensions/openclaw-lark/src/core
+./extensions/openclaw-lark/src/core/backends
 ./extensions/openclaw-lark/src/messaging
 ./extensions/openclaw-lark/src/messaging/converters
 ./extensions/openclaw-lark/src/messaging/converters/interactive
 ./extensions/openclaw-lark/src/messaging/inbound
-./extensions/openclaw-lark/src/messaging/outbound
-./extensions/openclaw-lark/src/messaging/shared
-./extensions/openclaw-lark/src/tools
-./extensions/openclaw-lark/src/tools/mcp
-./extensions/openclaw-lark/src/tools/mcp/doc
 
 ## 文件统计
 
-17323 个文件
+14655 个文件
 
 ## 主要目录
 
@@ -85,6 +85,8 @@ delivery-queue/
 devices/
 extensions/
 feishu/
+flows/
+hooks/
 identity/
 logs/
 media/
@@ -93,6 +95,7 @@ qqbot/
 scripts/
 skills/
 subagents/
+tasks/
 workspace/
 workspace-agent-commander/
 workspace-opencode/
