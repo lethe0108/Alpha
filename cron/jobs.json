@@ -29,7 +29,7 @@
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 2,
         "lastErrorReason": "timeout",
-        "lastError": "cron: job execution timed out"
+        "runningAtMs": 1775595600002
       }
     },
     {
@@ -147,7 +147,7 @@
       "name": "StockAnalyst - 每小时市场汇总报告",
       "enabled": true,
       "createdAtMs": 1774583639145,
-      "updatedAtMs": 1775507822649,
+      "updatedAtMs": 1775592575764,
       "schedule": {
         "everyMs": 3600000,
         "kind": "every",
@@ -164,13 +164,13 @@
         "channel": "qqbot"
       },
       "state": {
-        "nextRunAtMs": 1775511422649,
-        "lastRunAtMs": 1775507772534,
+        "nextRunAtMs": 1775596175764,
+        "lastRunAtMs": 1775592302703,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 50115,
+        "lastDurationMs": 273061,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 220,
+        "consecutiveErrors": 242,
         "lastError": "Delivering to QQ Bot requires target QQ Bot target format: qqbot:c2c:openid (direct) or qqbot:group:groupid (group)"
       }
     }

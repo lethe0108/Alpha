@@ -23,7 +23,49 @@
 
 ## 2. 工具并发调度
 
-### 2.1 核心模式
+### 2.1 OpenClaw 适配指南
+
+**⚠️ 重要**: OpenClaw 与 Claude Code 架构不同。Claude Code 有内置的工具并发调度机制，而 OpenClaw 使用技能系统指导 Agent 智能并发。
+
+**Agent 并发决策指南**:
+
+当需要执行多个工具时，Agent 应根据以下规则判断是否可以并发执行：
+
+| 并发安全 | 工具类型 | 示例 |
+|----------|----------|------|
+| ✅ 安全 | 只读操作 | read, web_search, web_fetch, memory_search, list, get, info |
+| ✅ 安全 | 查询类 | search, find, query, lookup |
+| ⚠️ 条件安全 | 文件操作 | 不同文件的 write/edit 可并发，同一文件必须串行 |
+| ❌ 不安全 | 修改操作 | write, edit, delete, create, exec, message |
+| ❌ 不安全 | 状态变更 | 任何改变系统状态的操作 |
+
+**并发执行策略**:
+
+```typescript
+// Agent 决策流程
+function shouldRunConcurrently(tools) {
+  // 1. 检查所有工具是否都是只读的
+  const allReadOnly = tools.every(t => isReadOnlyTool(t));
+  if (allReadOnly) return true;
+  
+  // 2. 检查是否有文件冲突
+  const filePaths = tools.map(t => t.params?.path).filter(Boolean);
+  const uniquePaths = new Set(filePaths);
+  if (filePaths.length !== uniquePaths.size) return false; // 有冲突
+  
+  // 3. 默认串行
+  return false;
+}
+```
+
+**最佳实践**:
+
+1. **批量读取**: 多个文件的 read 操作可以并发
+2. **搜索聚合**: 多个 web_search 可以并发执行
+3. **写保护**: 任何写入操作都串行执行
+4. **先读后写**: 先并发读取所有需要的数据，再串行写入
+
+### 2.2 Claude Code 原始模式（参考）
 
 ```typescript
 // 按并发安全性分组执行
@@ -562,49 +604,195 @@ async function resumeSession(sessionId: string): Promise<Session> {
 
 ---
 
-## 10. 实现检查清单
+## 10. 深度架构分析
 
-### 10.1 工具并发调度
+### 10.1 六层架构理解
+
+```
+CLI 引导层 → TUI/REPL 交互层 → Query/Agent 执行内核
+→ Tool/Permission 层 → Memory/Persistence 层 → MCP/Remote/Swarm 扩展层
+```
+
+**关键设计原则**:
+1. **多入口系统**: cli.tsx 快路径分流，main.tsx 总控编排
+2. **分层解耦**: UI、执行内核、工具层、memory 层各自独立
+3. **平台化设计**: 不只是聊天工具，而是本地 agent 平台
+
+### 10.2 核心机制详解
+
+#### 10.2.1 工具并发调度机制
+
+**分批策略**:
+```typescript
+// 示例: [A(Read), B(Read), C(Write), D(Read)]
+// 分批结果:
+// 批次1: [A, B] - 并发处理
+// 批次2: [C]   - 串行处理  
+// 批次3: [D]   - 串行处理
+```
+
+**延迟应用 contextModifier**:
+- 并发批次先收集所有 contextModifier
+- 批次完成后按序应用
+- 防止竞态污染
+
+#### 10.2.2 Memory 多层架构
+
+| 层级 | 作用域 | 存储位置 | 更新策略 |
+|------|--------|----------|----------|
+| Auto Memory | 用户/项目长期 | ~/.claude/memory/ | 后台提取 |
+| Session Memory | 当前会话 | 会话目录 | 阈值触发 |
+| Agent Memory | Agent类型专属 | agent-memory/ | Agent自维护 |
+| Team Memory | 团队共享 | .claude/team/ | 同步机制 |
+
+#### 10.2.3 会话持久化设计
+
+**Append-only JSONL**:
+- 主 transcript: `{sessionId}.jsonl`
+- Sidechain: `subagents/agent-{agentId}.jsonl`
+- 元数据尾部重挂: title/tag/mode
+
+**恢复修复**:
+- Progress桥接: 旧版progress链修复
+- Snip移除: 重新接parentUuid
+- Parallel tool result: 补兄弟节点
+
+#### 10.2.4 Context Compact机制
+
+**触发条件**:
+- Token阈值: 上下文窗口 - 20K(summary预留) - 13K(缓冲)
+- 熔断: 3次连续失败停止
+
+**压缩流程**:
+1. Strip images & attachments
+2. Fork agent生成summary
+3. PTL防御: 剥洋葱式重试
+4. 状态补偿: file attachments + plans + skills
+
+#### 10.2.5 Prompt缓存工程
+
+**Section化设计**:
+```typescript
+// 静态段 (可缓存)
+getSimpleIntroSection()
+getSimpleSystemSection()
+getActionsSection()
+
+// 动态边界
+SYSTEM_PROMPT_DYNAMIC_BOUNDARY
+
+// 动态段 (可能变化)
+systemPromptSection('memory', ...)
+DANGEROUS_uncachedSystemPromptSection('mcp_instructions', ...)
+```
+
+**优先级覆盖**:
+```
+override > coordinator > agent > custom > default + append
+```
+
+#### 10.2.6 Sandbox安全架构
+
+**四层结构**:
+1. `shouldUseSandbox()` - 路由决策
+2. `convertToSandboxRuntimeConfig()` - 配置翻译
+3. `bashPermissions` - 权限检查
+4. `Shell.ts` + `cleanupAfterCommand()` - 执行与清理
+
+**逃逸防护**:
+- Git bare repo清理
+- Settings/skills目录保护
+- 路径穿越检测
+
+### 10.3 关键设计模式
+
+#### 模式1: Fail-Closed默认策略
+```typescript
+const TOOL_DEFAULTS = {
+  isConcurrencySafe: () => false,  // 默认不安全
+  isReadOnly: () => false,         // 默认非只读
+  isDestructive: () => false,
+}
+```
+
+#### 模式2: 管线代理模式
+```
+模型输出 → 收集tool_use → 分批 → 执行 → 结果回流 → 下一轮
+```
+
+#### 模式3: 双轨通信
+- Mailbox: 文件式异步通信
+- Direct: 内存队列直接通信
+
+#### 模式4: 状态机驱动
+```
+queued → executing → completed → yielded
+```
+
+## 11. 实现检查清单
+
+### 11.1 工具并发调度
 
 - [ ] 实现 `partitionToolCalls` 函数
 - [ ] 为每个工具添加 `isConcurrencySafe` 方法
 - [ ] 实现 `runToolsConcurrently` 和 `runToolsSerially`
 - [ ] 添加并发安全测试
 
-### 10.2 Memory 硬截断
+### 11.2 Memory 硬截断
 
 - [ ] 定义 `MEMORY_CONSTANTS` 常量
 - [ ] 实现 `truncateEntrypointContent` 函数
 - [ ] 修改 `buildMemoryPrompt` 添加截断
 - [ ] 添加截断日志和监控
 
-### 10.3 Trust 分离
+### 11.3 Trust 分离
 
 - [ ] 定义 `SAFE_ENVIRONMENT_VARIABLES` 白名单
 - [ ] 实现 `applySafeEnvironmentVariables`
 - [ ] 实现 `initializeTelemetryAfterTrust`
 - [ ] 添加 trust 状态检查
 
-### 10.4 Query 重构
+### 11.4 Query 重构
 
 - [ ] 将 query 改为 Generator 函数
 - [ ] 实现 `shouldCompact` 和 `compact`
 - [ ] 添加 `executePostSamplingHooks`
 - [ ] 测试流式输出
 
-### 10.5 MCP 命名
+### 11.5 MCP 命名
 
 - [ ] 实现 `buildMcpToolName`
 - [ ] 实现 `parseMcpToolName`
 - [ ] 更新所有 MCP 工具名称
 - [ ] 添加命名验证
 
-### 10.6 Swarm 架构
+### 11.6 Swarm 架构
 
 - [ ] 定义 `BACKEND_REGISTRY`
 - [ ] 实现 `InProcessBackend`
 - [ ] 实现 `TmuxBackend`（可选）
 - [ ] 添加 Backend 接口测试
+
+### 11.7 会话持久化
+
+- [ ] 实现 append-only JSONL写入
+- [ ] 添加 metadata尾部重挂
+- [ ] 实现 resume恢复修复
+- [ ] 添加 sidechain支持
+
+### 11.8 Context Compact
+
+- [ ] 实现 token阈值监控
+- [ ] 添加 compact熔断机制
+- [ ] 实现 PTL防御
+- [ ] 添加状态补偿
+
+### 11.9 Prompt缓存
+
+- [ ] 实现 section化设计
+- [ ] 添加 DYNAMIC_BOUNDARY
+- [ ] 实现 section缓存
+- [ ] 添加优先级覆盖
 
 ---
 
@@ -617,6 +805,137 @@ async function resumeSession(sessionId: string): Promise<Session> {
 
 ---
 
+## 12. 相关资源
+
+- **源码分析仓库**: https://github.com/liuup/claude-code-analysis
+- **Claude Code 官方**: https://claude.ai/code
+- **MCP 协议**: https://modelcontextprotocol.io
+- **OpenClaw 文档**: https://docs.openclaw.ai
+
+## 13. OpenClaw 集成指南
+
+### 13.1 架构差异说明
+
+**Claude Code** 和 **OpenClaw** 的架构差异：
+
+| 维度 | Claude Code | OpenClaw |
+|------|-------------|----------|
+| 运行环境 | 本地 CLI | 分布式 Agent 平台 |
+| 工具执行 | 内核直接调度 | 通过工具系统调用 |
+| Memory | 文件式 MEMORY.md | 插件式 memory-state.ts |
+| 多 Agent | Swarm Backend Registry | Sub-agent + sessions_spawn |
+| MCP | 内置 MCP 客户端 | 插件扩展 |
+
+**集成策略**:
+- ✅ **Memory 截断** - 通过技能实现 (`memory-truncation`)
+- ✅ **工具并发** - 通过技能指导 Agent 决策
+- ✅ **MCP 命名** - 通过技能文档规范
+- ⚠️ **Query 重构** - 架构不同，仅作参考
+- ⚠️ **Trust 分离** - OpenClaw 有自己的安全机制
+- ⚠️ **Swarm** - OpenClaw 已有 sub-agent 系统
+
+### 13.2 MCP 工具命名规范
+
+**命名格式**:
+```
+mcp__<server_name>__<tool_name>
+```
+
+**示例**:
+```
+# 文件系统
+mcp__filesystem__read_file
+mcp__filesystem__write_file
+mcp__filesystem__list_directory
+
+# GitHub
+mcp__github__create_issue
+mcp__github__create_pull_request
+mcp__github__search_code
+
+# Slack
+mcp__slack__send_message
+mcp__slack__create_channel
+
+# Puppeteer
+mcp__puppeteer__screenshot
+mcp__puppeteer__click
+```
+
+**命名规则**:
+1. 前缀 `mcp__` 表示 MCP 工具
+2. `server_name` 使用小写 + 下划线
+3. `tool_name` 使用小写 + 下划线
+4. 避免使用特殊字符
+
+**解析函数**:
+```typescript
+function buildMcpToolName(serverName: string, toolName: string): string {
+  return `mcp__${serverName}__${toolName}`;
+}
+
+function parseMcpToolName(fullName: string): { serverName: string; toolName: string } | null {
+  const match = fullName.match(/^mcp__(.+?)__(.+)$/);
+  if (!match) return null;
+  return {
+    serverName: match[1],
+    toolName: match[2],
+  };
+}
+```
+
+### 13.3 已完成的集成
+
+| 集成项 | 位置 | 状态 |
+|--------|------|------|
+| Memory 截断技能 | `~/.openclaw/skills/memory-truncation/` | ✅ 完成 |
+| 工具并发指南 | 本技能文档 2.1 节 | ✅ 完成 |
+| MCP 命名规范 | 本技能文档 13.2 节 | ✅ 完成 |
+| 实现代码 | `implementation.js` | ✅ 完成 |
+
+### 13.4 使用指南
+
+**Memory 截断**:
+```javascript
+const { truncateEntrypointContent, checkFile } = require('./memory-truncation/truncate.js');
+
+// 检查文件
+const check = checkFile('~/.openclaw/workspace/MEMORY.md');
+if (check.needsTruncation) {
+  console.log(`需要截断: ${check.lineOverflow} 行溢出`);
+}
+
+// 执行截断
+const result = truncateEntrypointContent(content);
+console.log(`截断后: ${result.lineCount} 行, ${result.byteCount} 字节`);
+```
+
+**工具并发决策**:
+```javascript
+// Agent 根据技能指导判断
+const concurrentSafeTools = ['read', 'web_search', 'web_fetch', 'memory_search'];
+const unsafeTools = ['write', 'edit', 'exec', 'message'];
+
+function canRunConcurrently(tools) {
+  return tools.every(t => concurrentSafeTools.includes(t.name));
+}
+```
+
+---
+
+## 14. 文档索引
+
+| 文档 | 内容 | 状态 |
+|------|------|------|
+| `SKILL.md` | 技能主文档 | ✅ |
+| `implementation.js` | 实现代码 | ✅ |
+| `INTEGRATION_PLAN.md` | OpenClaw集成方案 | ✅ |
+| `memory-truncation/SKILL.md` | Memory截断技能 | ✅ |
+| `memory-truncation/truncate.js` | 截断实现代码 | ✅ |
+
+---
+
 *本技能基于 Claude Code 泄露源码分析，提取核心架构设计模式*
 *创建时间: 2026-04-07*
-*版本: 1.0.0*
+*版本: 1.2.0*
+*集成状态: 已完成核心集成*

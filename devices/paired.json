@@ -40,8 +40,8 @@
     "deviceId": "2e737072a6923d8754257ffe2ed80640efe0edf473ccca2ec981a66e1fbb4b5f",
     "publicKey": "9Ypkyut7k7x7wivczv3tOMnd8kUavI3GEPGEum1odVA",
     "platform": "linux",
-    "clientId": "gateway-client",
-    "clientMode": "backend",
+    "clientId": "cli",
+    "clientMode": "probe",
     "role": "operator",
     "roles": [
       "operator"
@@ -370,7 +370,7 @@
           "operator.write"
         ],
         "createdAtMs": 1775221588874,
-        "lastUsedAtMs": 1775495647908
+        "lastUsedAtMs": 1775587900553
       }
     },
     "createdAtMs": 1775221588874,
