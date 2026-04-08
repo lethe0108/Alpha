@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.4.5",
-    "lastTouchedAt": "2026-04-07T18:06:33.005Z"
+    "lastTouchedVersion": "2026.4.8",
+    "lastTouchedAt": "2026-04-08T17:21:18.228Z"
   },
   "wizard": {
-    "lastRunAt": "2026-04-05T17:05:48.011Z",
-    "lastRunVersion": "2026.3.31",
+    "lastRunAt": "2026-04-08T17:21:17.946Z",
+    "lastRunVersion": "2026.4.8",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
@@ -374,6 +374,11 @@
       }
     }
   },
+  "browser": {
+    "enabled": true,
+    "headless": true,
+    "noSandbox": true
+  },
   "channels": {
     "feishu": {
       "appId": "cli_a92692f305789ceb",
@@ -401,13 +406,25 @@
       "allowFrom": [
         "*"
       ],
-      "activation": "keywords",
-      "activationKeywords": [
+      "chatmode": "onchar",
+      "oncharPrefixes": [
         "小p",
-        "alpha",
         "小P",
-        "Alpha"
-      ]
+        "Alpha",
+        "alpha",
+        "小p ",
+        "小P ",
+        "Alpha ",
+        "alpha "
+      ],
+      "groupAllowFrom": [
+        "*"
+      ],
+      "groups": {
+        "*": {
+          "requireMention": false
+        }
+      }
     }
   },
   "memory": {},
@@ -417,7 +434,8 @@
       "openclaw-lark",
       "openclaw-qqbot",
       "qqbot",
-      "mattermost"
+      "mattermost",
+      "browser"
     ],
     "entries": {
       "feishu": {
@@ -436,6 +454,9 @@
         "enabled": true
       },
       "mattermost": {
+        "enabled": true
+      },
+      "browser": {
         "enabled": true
       }
     },

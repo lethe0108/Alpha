@@ -1,5 +1,8 @@
 ---
+name: memory-truncation
+scope: global
 summary: "Memory 硬截断保护 - 防止 MEMORY.md 溢出导致 token 超限"
+description: Memory 硬截断保护技能。防止 MEMORY.md 文件溢出导致 token 超限，确保 Memory 系统稳定运行。全局技能。
 read_when:
   - 管理 MEMORY.md 文件大小
   - 防止 context 溢出

@@ -1,6 +1,7 @@
 ---
 name: context-engineering
-description: AI Agent 上下文工程技能。当需要管理 AI Agent 的上下文状态、优化 Token 使用、设计多 Agent 协作、处理长周期任务时使用此技能。基于 Anthropic 最佳实践。
+scope: global
+description: AI Agent 上下文工程技能。当需要管理 AI Agent 的上下文状态、优化 Token 使用、设计多 Agent 协作、处理长周期任务时使用此技能。基于 Anthropic 最佳实践。全局技能。
 metadata:
   { "openclaw": { "emoji": "🧠", "category": "AI Engineering", "version": "1.0.0" } }
 ---

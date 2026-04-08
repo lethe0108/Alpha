@@ -1,9 +1,15 @@
+---
+name: claude-code-architecture
+scope: global
+description: Claude Code 架构优化技能。基于 Claude Code 泄露源码的深度分析，提取核心架构设计模式和最佳实践，用于优化 OpenClaw 系统。全局技能。
+---
+
 # Claude Code 架构优化技能
 
 **技能ID**: `claude-code-architecture`
-**版本**: 1.0.0
+**版本**: 1.2.0
 **创建时间**: 2026-04-07
-**状态**: 全局可用
+**状态**: 全局可用 ✅
 
 ---
 
