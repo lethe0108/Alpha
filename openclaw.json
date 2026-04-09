@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.4.8",
-    "lastTouchedAt": "2026-04-08T17:21:18.228Z"
+    "lastTouchedAt": "2026-04-09T02:10:40.917Z"
   },
   "wizard": {
     "lastRunAt": "2026-04-08T17:21:17.946Z",
@@ -386,7 +386,15 @@
       "encryptKey": "",
       "verificationToken": "",
       "dmPolicy": "pairing",
-      "groupPolicy": "open"
+      "groupPolicy": "open",
+      "accounts": {
+        "secondary": {
+          "appId": "cli_a95d0ba621385bc4",
+          "appSecret": "9S1trCSvUgXHxP4d4eMKCg836zofbL56",
+          "dmPolicy": "open",
+          "groupPolicy": "open"
+        }
+      }
     },
     "qqbot": {
       "enabled": true,
@@ -458,6 +466,13 @@
       },
       "browser": {
         "enabled": true
+      },
+      "memory-core": {
+        "config": {
+          "dreaming": {
+            "enabled": true
+          }
+        }
       }
     },
     "installs": {
