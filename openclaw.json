@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.4.8",
-    "lastTouchedAt": "2026-04-09T02:10:40.917Z"
+    "lastTouchedAt": "2026-04-10T15:03:47.438Z"
   },
   "wizard": {
     "lastRunAt": "2026-04-08T17:21:17.946Z",
@@ -12,7 +12,7 @@
   "gateway": {
     "port": 19234,
     "mode": "local",
-    "bind": "lan",
+    "bind": "custom",
     "auth": {
       "mode": "token",
       "token": "1e90188c3123b3df79240688000ce9bcaa45573c68dcdb72"
@@ -37,7 +37,8 @@
         "http://localhost:19234",
         "http://127.0.0.1:19234"
       ]
-    }
+    },
+    "customBindHost": "0.0.0.0"
   },
   "acp": {
     "enabled": false,
@@ -385,13 +386,15 @@
       "appSecret": "VJhazrJkyuxvBXTjZ2vjrhkAjduCGYm1",
       "encryptKey": "",
       "verificationToken": "",
-      "dmPolicy": "pairing",
-      "groupPolicy": "open",
       "accounts": {
         "secondary": {
           "appId": "cli_a95d0ba621385bc4",
           "appSecret": "9S1trCSvUgXHxP4d4eMKCg836zofbL56",
           "dmPolicy": "open",
+          "groupPolicy": "open"
+        },
+        "default": {
+          "dmPolicy": "pairing",
           "groupPolicy": "open"
         }
       }
