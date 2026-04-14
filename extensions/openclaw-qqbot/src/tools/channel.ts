@@ -115,7 +115,8 @@ function validatePath(path: string): string | null {
  * - 日程管理（Schedule）
  */
 export function registerChannelTool(api: OpenClawPluginApi): void {
-  const cfg = api.config;
+  // 使用 runtime.config.loadConfig() 获取全局配置
+  const cfg = api.runtime?.config?.loadConfig?.() ?? api.config;
   if (!cfg) {
     console.log("[qqbot-channel-api] No config available, skipping");
     return;
