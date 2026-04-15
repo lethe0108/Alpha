@@ -1,13 +1,13 @@
 {
   "agent:main:main": {
     "sessionId": "4b04f7c4-df54-4df3-9e92-55ee6793aeeb",
-    "updatedAt": 1776286801671,
+    "updatedAt": 1776287496009,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
     "origin": {
       "label": "heartbeat",
-      "provider": "cron-event",
+      "provider": "heartbeat",
       "from": "heartbeat",
       "to": "heartbeat",
       "surface": "webchat",
@@ -572,7 +572,7 @@
     "totalTokensFresh": true,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1776285222637,
+      "generatedAt": 1776287480126,
       "sessionId": "4b04f7c4-df54-4df3-9e92-55ee6793aeeb",
       "sessionKey": "agent:main:main",
       "provider": "bailian",
@@ -1154,14 +1154,14 @@
     },
     "modelProvider": "bailian",
     "model": "glm-5",
-    "cacheRead": 131007,
+    "cacheRead": 132927,
     "cacheWrite": 0,
-    "status": "running",
-    "startedAt": 1776286801596,
+    "status": "done",
+    "startedAt": 1776287480323,
     "contextTokens": 202752,
-    "totalTokens": 131140,
-    "inputTokens": 128429,
-    "outputTokens": 102,
+    "totalTokens": 133094,
+    "inputTokens": 103269,
+    "outputTokens": 118,
     "estimatedCostUsd": 0,
     "memoryFlushAt": 1775483125275,
     "memoryFlushCompactionCount": 0,
@@ -1172,7 +1172,9 @@
     "lastChannel": "webchat",
     "lastTo": "heartbeat",
     "providerOverride": "bailian",
-    "modelOverride": "glm-5"
+    "modelOverride": "glm-5",
+    "endedAt": 1776287495860,
+    "runtimeMs": 15537
   },
   "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8": {
     "sessionId": "c35dae53-ad35-4d17-bb71-dd2243720ff9",
@@ -12975,7 +12977,7 @@
   },
   "agent:main:cron:7eb7d21f-b3fe-443a-9d6d-11fde55b0216": {
     "sessionId": "b6a2bcb4-b77a-43fb-a353-387efa3b29eb",
-    "updatedAt": 1776283420971,
+    "updatedAt": 1776287478875,
     "systemSent": true,
     "label": "Cron: StockAnalyst - 每小时市场汇总报告",
     "skillsSnapshot": {
@@ -13287,7 +13289,7 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1776283412652,
+    "startedAt": 1776287464592,
     "abortedLastRun": false,
     "deliveryContext": {
       "channel": "qqbot",
@@ -13300,7 +13302,7 @@
     "chatType": "direct",
     "origin": {
       "label": "heartbeat",
-      "provider": "qqbot",
+      "provider": "cron-event",
       "from": "heartbeat",
       "to": "heartbeat"
     },
@@ -13404,7 +13406,7 @@
     "contextTokens": 202752,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1776283412598,
+      "generatedAt": 1776287464537,
       "sessionId": "b6a2bcb4-b77a-43fb-a353-387efa3b29eb",
       "sessionKey": "agent:main:cron:7eb7d21f-b3fe-443a-9d6d-11fde55b0216",
       "provider": "bailian",
@@ -13424,8 +13426,8 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 27318,
-        "projectContextChars": 13224,
+        "chars": 27302,
+        "projectContextChars": 13208,
         "nonProjectContextChars": 14094
       },
       "injectedWorkspaceFiles": [
@@ -13585,7 +13587,7 @@
       },
       "tools": {
         "listChars": 0,
-        "schemaChars": 52081,
+        "schemaChars": 52421,
         "entries": [
           {
             "name": "read",
@@ -13626,8 +13628,8 @@
           {
             "name": "message",
             "summaryChars": 123,
-            "schemaChars": 5639,
-            "propertiesCount": 105
+            "schemaChars": 5979,
+            "propertiesCount": 106
           },
           {
             "name": "tts",
@@ -13945,14 +13947,14 @@
       }
     },
     "estimatedCostUsd": 0,
-    "totalTokens": 147469,
+    "totalTokens": 150836,
     "compactionCount": 1,
-    "inputTokens": 1742,
-    "outputTokens": 227,
-    "cacheRead": 145727,
+    "inputTokens": 125685,
+    "outputTokens": 156,
+    "cacheRead": 25151,
     "cacheWrite": 0,
-    "endedAt": 1776283420798,
-    "runtimeMs": 8146
+    "endedAt": 1776287478709,
+    "runtimeMs": 14117
   },
   "agent:main:qqbot:direct:5d283d3373f4a64838b43dc7508e59f6": {
     "sessionId": "aba64c89-9fb6-4fdc-998a-0d474451be8f",
