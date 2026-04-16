@@ -1,13 +1,13 @@
 {
   "agent:main:main": {
     "sessionId": "4b04f7c4-df54-4df3-9e92-55ee6793aeeb",
-    "updatedAt": 1776373201685,
+    "updatedAt": 1776373861179,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
     "origin": {
       "label": "heartbeat",
-      "provider": "cron-event",
+      "provider": "heartbeat",
       "from": "heartbeat",
       "to": "heartbeat",
       "surface": "webchat",
@@ -572,7 +572,7 @@
     "totalTokensFresh": true,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1776372109833,
+      "generatedAt": 1776373842891,
       "sessionId": "4b04f7c4-df54-4df3-9e92-55ee6793aeeb",
       "sessionKey": "agent:main:main",
       "provider": "bailian",
@@ -1155,14 +1155,14 @@
     },
     "modelProvider": "bailian",
     "model": "glm-5",
-    "cacheRead": 148031,
+    "cacheRead": 149759,
     "cacheWrite": 0,
-    "status": "running",
-    "startedAt": 1776373201615,
+    "status": "done",
+    "startedAt": 1776373842995,
     "contextTokens": 202752,
-    "totalTokens": 148187,
-    "inputTokens": 145040,
-    "outputTokens": 124,
+    "totalTokens": 149889,
+    "inputTokens": 120021,
+    "outputTokens": 126,
     "estimatedCostUsd": 0,
     "memoryFlushAt": 1775483125275,
     "memoryFlushCompactionCount": 0,
@@ -1173,7 +1173,9 @@
     "lastChannel": "webchat",
     "lastTo": "heartbeat",
     "providerOverride": "bailian",
-    "modelOverride": "glm-5"
+    "modelOverride": "glm-5",
+    "endedAt": 1776373861021,
+    "runtimeMs": 18026
   },
   "agent:main:feishu:direct:ou_5965d62297ded953e874f2b15373e3b8": {
     "sessionId": "2ddf03af-4461-42ab-9ec4-a4cf4f32b156",
@@ -12974,7 +12976,7 @@
   },
   "agent:main:cron:7eb7d21f-b3fe-443a-9d6d-11fde55b0216": {
     "sessionId": "b6a2bcb4-b77a-43fb-a353-387efa3b29eb",
-    "updatedAt": 1776369824703,
+    "updatedAt": 1776373821047,
     "systemSent": true,
     "label": "Cron: StockAnalyst - 每小时市场汇总报告",
     "skillsSnapshot": {
@@ -13286,7 +13288,7 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1776369813006,
+    "startedAt": 1776373810027,
     "abortedLastRun": false,
     "deliveryContext": {
       "channel": "qqbot",
@@ -13305,8 +13307,8 @@
     },
     "providerOverride": "bailian",
     "modelOverride": "glm-5",
-    "lastHeartbeatText": "我已收到04:03的定时提醒。A股市场已于昨日15:00收盘，当前处于凌晨时段（收盘后13小时3分钟），市场已无实时交易数据更新。\n\n**系统状态说明**：\n- 昨日交易已结束（4月16日 09:30-15:00）\n- 凌晨时段无实时行情数据\n- 系统正常运行，等待今日09:30开盘\n\n**昨日收盘数据已记录**：\n- 上证指数：4055.55点（+0.70%）✅ 强势反弹\n- 深证成指：14796.33点（+2.05%）📈 强势上涨\n- 创业板指：3626.27点（+3.17%）✅ 完全修复昨日跌幅\n- 滨深300：4736.61点（+1.10%）📈 权重股强势\n\n昨日A股强势反弹收盘！创业板涨幅+3.17%领涨。系统将正常执行今日开盘后的定时报告任务。凌晨时段不再生成实时报告。",
-    "lastHeartbeatSentAt": 1776369811160,
+    "lastHeartbeatText": "我已收到05:10的定时提醒。A股市场已于昨日15:00收盘，当前处于凌晨时段（距离今日开盘约4小时20分钟）。市场已无实时交易数据更新。\n\n**系统状态说明**：\n- 昨日交易已结束（4月16日 09:30-15:00）\n- 凌晨时段无实时行情数据\n- 系统正常运行，等待今日09:30开盘\n\n**昨日收盘数据已记录**：\n- 上证指数：4055.55点（+0.70%）✅ 强势反弹\n- 深证成指：14796.33点（+2.05%）📈 强势上涨\n- 创业板指：3626.27点（+3.17%）✅ 完全修复昨日跌幅\n- 滨深300：4736.61点（+1.10%）📈 权重股强势\n\n昨日A股强势反弹收盘！创业板涨幅+3.17%领涨。系统将正常执行今日开盘后的定时报告任务。凌晨时段不再生成实时报告。",
+    "lastHeartbeatSentAt": 1776373808814,
     "compactionCheckpoints": [
       {
         "checkpointId": "84926802-15dd-456f-abe7-e2b5b1a111dd",
@@ -13425,7 +13427,7 @@
     "contextTokens": 202752,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1776369812939,
+      "generatedAt": 1776373809959,
       "sessionId": "b6a2bcb4-b77a-43fb-a353-387efa3b29eb",
       "sessionKey": "agent:main:cron:7eb7d21f-b3fe-443a-9d6d-11fde55b0216",
       "provider": "bailian",
@@ -13966,14 +13968,14 @@
       }
     },
     "estimatedCostUsd": 0,
-    "totalTokens": 113442,
+    "totalTokens": 117165,
     "compactionCount": 2,
-    "inputTokens": 1891,
-    "outputTokens": 464,
-    "cacheRead": 111551,
+    "inputTokens": 1902,
+    "outputTokens": 358,
+    "cacheRead": 115263,
     "cacheWrite": 0,
-    "endedAt": 1776369824546,
-    "runtimeMs": 11540
+    "endedAt": 1776373820826,
+    "runtimeMs": 10799
   },
   "agent:main:qqbot:direct:5d283d3373f4a64838b43dc7508e59f6": {
     "sessionId": "aba64c89-9fb6-4fdc-998a-0d474451be8f",
