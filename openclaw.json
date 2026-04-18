@@ -446,7 +446,9 @@
       "openclaw-qqbot",
       "qqbot",
       "mattermost",
-      "browser"
+      "browser",
+      "version",
+      "memory-core"
     ],
     "entries": {
       "feishu": {
@@ -471,11 +473,7 @@
         "enabled": true
       },
       "memory-core": {
-        "config": {
-          "dreaming": {
-            "enabled": true
-          }
-        }
+        "enabled": true
       }
     },
     "installs": {
